@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/630/C)
 
 Portal2: [Luogu](http://codeforces.com/problemset/problem/630/C)
 
-<!-- more -->
-
 ### Description
 
 The numbers of all offices in the new building of the Tax Office of IT City will have lucky numbers.

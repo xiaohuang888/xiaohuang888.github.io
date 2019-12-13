@@ -17,8 +17,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/10/D)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF10D)
 
-<!-- more -->
-
 ### Description
 
 *This problem differs from one which was on the online contest.*

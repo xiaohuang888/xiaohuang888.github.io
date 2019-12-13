@@ -13,8 +13,6 @@ mathjax: true
 
 Portal1: [Luogu](https://www.luogu.com.cn/problem/P1412)
 
-<!-- more -->
-
 ### Description
 
 你驾驶着一台带有钻头（初始能力值$w$）的飞船，按既定路线依次飞过$n$个星球。
@@ -77,9 +75,9 @@ $\rm type$为$2$则代表其为维修型星球，$x$为其维护费用$\rm b[i]$
 
 很容易想到是动态规划，按题目说的，我们分为两种情况，分别为$\rm type = 1$和$\rm type = 2$，但是如果直接顺序进行$\rm dp$，发现存在后效性，无法直接确定答案，所以我们倒着来，转移方程分别为：
 
-1. 当$type = 1$时：$\rm dp[i] = \max(dp[i + 1], a[i] + dp[i + 1] * (1 - 0.01 * k))$
+1. 当$type = 1$时：$\rm dp[i] = \max(dp[i + 1], a[i] + dp[i + 1] \times (1 - 0.01 \times k))$
 
-2. 当$type = 2$时，$\rm dp[i] = max(dp[i + 1], -a[i] + dp[i + 1] * (1 + 0.01 * c))$
+2. 当$type = 2$时，$\rm dp[i] = \max(dp[i + 1], -a[i] + dp[i + 1] \times (1 + 0.01 \times c))$
 
 答案就是$\rm dp[1]$。
 

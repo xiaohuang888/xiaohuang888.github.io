@@ -17,8 +17,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/52/C)
 
 Portal2: [Luogu](http://codeforces.com/problemset/problem/52/C)
 
-<!-- more -->
-
 ### Description
 
 You are given circular array $a_0, a_1, \cdots, a_{n - 1}$. There are two types of operations with it:

@@ -16,8 +16,6 @@ Portal2: [Codeforces](http://codeforces.com/problemset/problem/1143/C)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF1143C)
 
-<!-- more -->
-
 ### Description
 
 You are given a rooted tree with vertices numerated from $1$ to $n$. A tree is a connected graph without cycles. A rooted tree has a special vertex named root.

@@ -16,8 +16,6 @@ Portal1: [Codeforces](https://codeforces.com/problemset/problem/888/D)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF888D)
 
-<!-- more -->
-
 ### Description
 
 A permutation $p$ of size $n$ is an array such that every integer from $1$ to $n$ occurs exactly once in this array.

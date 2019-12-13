@@ -13,8 +13,6 @@ mathjax: true
 
 Portal1: [Luogu](https://www.luogu.com.cn/problem/P5635)
 
-<!-- more -->
-
 ### Description
 
 给定两个数$x$,$y$，与一个模数$Mod$。

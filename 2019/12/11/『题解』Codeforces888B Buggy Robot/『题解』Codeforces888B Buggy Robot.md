@@ -17,8 +17,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/888/B)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF888B)
 
-<!-- more -->
-
 ### Description
 
 Ivan has a robot which is situated on an infinite grid. Initially the robot is standing in the starting cell $(0, 0)$. The robot can process commands. There are four types of commands it can perform:

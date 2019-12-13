@@ -14,8 +14,6 @@ mathjax: true
 
 Portal1: [Luogu](https://www.luogu.com.cn/problem/P1349)
 
-<!-- more -->
-
 ### Description
 
 广义的斐波那契数列是指形如$an=p \times a_{n-1}+q \times a_{n-2}$的数列。今给定数列的两系数$p$和$q$，以及数列的最前两项$a_1$和$a_2$，另给出两个整数$n$和$m$，试求数列的第$n$项$a_n$除以$m$的余数。
@@ -46,13 +44,13 @@ Portal1: [Luogu](https://www.luogu.com.cn/problem/P1349)
 
 ### Solution
 
-基本斐波那契数列矩阵是$T = \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}$；
+基本斐波那契数列矩阵是$T = \begin{bmatrix} 1 & 1 \\\\ 1 & 0 \end{bmatrix}$；
 
-广义斐波那契数列矩阵是$F = \begin{bmatrix} p & 1 \\ q & 0 \end{bmatrix}$。
+广义斐波那契数列矩阵是$F = \begin{bmatrix} p & 1 \\\\ q & 0 \end{bmatrix}$。
 
 那么要求的就是：
 
-$$\begin{aligned} F_i & = F_{i - 1} \times T \\\\ & = \begin{bmatrix} f_{i - 1} & f_{i - 2} \\ 0 & 0 \end{bmatrix} \times \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix} \\\\ & = \begin{bmatrix} f_{i - 1} + f_{i - 2} & f_{i - 1} \\ 0 & 0 \end{bmatrix} \\\\ & = \begin{bmatrix} f_i & f_{i - 1} \\ 0 & 0 \end{bmatrix} \end{aligned}$$
+$$\begin{aligned} F_i & = F_{i - 1} \times T \\\\ & = \begin{bmatrix} f_{i - 1} & f_{i - 2} \\\\ 0 & 0 \end{bmatrix} \times \begin{bmatrix} 1 & 1 \\\\ 1 & 0 \end{bmatrix} \\\\ & = \begin{bmatrix} f_{i - 1} + f_{i - 2} & f_{i - 1} \\\\ 0 & 0 \end{bmatrix} \\\\ & = \begin{bmatrix} f_i & f_{i - 1} \\\\ 0 & 0 \end{bmatrix} \end{aligned}$$
 
 然后就可以用矩阵快速幂来解决了。
 

@@ -17,8 +17,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/1142/B)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF1142B)
 
-<!-- more -->
-
 ### Description
 
 Recently Lynyrd and Skynyrd went to a shop where Lynyrd bought a permutation $p$ of length $n$, and Skynyrd bought an array $a$ of length $m$, consisting of integers from $1$ to $n$.

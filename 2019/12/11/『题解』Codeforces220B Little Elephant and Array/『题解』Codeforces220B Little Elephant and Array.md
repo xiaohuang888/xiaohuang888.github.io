@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/220/B)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF220B)
 
-<!-- more -->
-
 ### Description
 
 The Little Elephant loves playing with arrays. He has array $a$, consisting of $n$ positive integers, indexed from $1$ to $n$. Let's denote the number with index $i$ as $a_i$.

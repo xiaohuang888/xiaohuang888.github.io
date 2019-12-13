@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/1142/A)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF1142A)
 
-<!-- more -->
-
 ### Description
 
 Recently a Golden Circle of Beetlovers was found in Byteland. It is a circle route going through $n \cdot k$ cities. The cities are numerated from $1$ to $n \cdot k$, the distance between the neighboring cities is exactly $1$ km.

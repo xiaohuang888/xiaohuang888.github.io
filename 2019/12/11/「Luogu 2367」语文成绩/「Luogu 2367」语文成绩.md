@@ -14,8 +14,6 @@ mathjax: true
 
 Portal1: [Luogu](https://www.luogu.com.cn/problem/P2367)
 
-<!-- more -->
-
 ### Description
 
 语文老师总是写错成绩，所以当她修改成绩的时候，总是累得不行。她总是要一遍遍地给某些同学增加分数，又要注意最低分是多少。你能帮帮她吗？

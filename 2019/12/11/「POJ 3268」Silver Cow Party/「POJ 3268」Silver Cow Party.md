@@ -17,8 +17,6 @@ Portal1: [POJ](http://poj.org/problem?id=3268)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/P1821)
 
-<!-- more -->
-
 ### Description
 
 One cow from each of N farms $(1  \le  N  \le  1000)$ conveniently numbered $1 \cdots N$ is going to attend the big cow party to be held at farm #X $(1  \le  X  \le  N)$. A total of $M (1  \le  M  \le  100,000)$ unidirectional (one-way roads connects pairs of farms; road $i$ requires $T_i (1  \le  Ti  \le  100)$ units of time to traverse.

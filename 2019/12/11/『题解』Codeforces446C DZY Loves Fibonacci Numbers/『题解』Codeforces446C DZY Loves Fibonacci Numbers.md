@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/446/C)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF446C)
 
-<!-- more -->
-
 ### Description
 
 In mathematical terms, the sequence $F_n$ of Fibonacci numbers is defined by the recurrence relation

@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/121/A)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF121A)
 
-<!-- more -->
-
 ### Description
 
 **Petya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits $4$ and $7$. For example, numbers $47$, $744$, $4$ are lucky and $5$, $17$, $467$ are not.**

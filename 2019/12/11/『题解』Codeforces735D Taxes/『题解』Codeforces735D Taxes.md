@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/735/D)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF735D)
 
-<!-- more -->
-
 ### Description
 
 Mr. Funt now lives in a country with a very specific tax laws. The total income of mr. Funt during this year is equal to $n (n \le 2)$ burles and the amount of tax he has to pay is calculated as the maximum divisor of $n$ (not equal to $n$, of course). For example, if $n = 6$ then Funt has to pay $3$ burles, while for $n = 25$ he needs to pay $5$ and if $n = 2$ he pays only $1$ burle.

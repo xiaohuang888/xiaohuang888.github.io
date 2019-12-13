@@ -17,8 +17,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/656/E)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF656E)
 
-<!-- more -->
-
 ### Description
 
 You are given a complete undirected graph. For each pair of vertices you are given the length of the edge that connects them. Find the shortest paths between each pair of vertices in the graph and return the length of the longest of them.

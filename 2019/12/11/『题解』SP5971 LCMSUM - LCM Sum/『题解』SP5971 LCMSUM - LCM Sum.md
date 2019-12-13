@@ -16,8 +16,6 @@ Portal1: [Sphere Online Judge](https://www.spoj.com/problems/LCMSUM)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/SP5971)
 
-<!-- more -->
-
 ### Description
 
 Given $n$, calculate the sum `LCM(1,n) + LCM(2,n) + .. + LCM(n,n)`, where `LCM(i,n)` denotes the Least Common Multiple of the integers $i$ and $n$.
@@ -59,9 +57,7 @@ $1 \le T \le 300000$，$1 \le n \le 1000000$。
 
 题目中的式子可以化简为：
 
-$$\begin{align} \sum^{n}_{i = 1}{\text{lcm}(i, n)} & = \sum^{n}_{i = 1}{\frac{i \times n}{\gcd(i, n)}} \\\ & = n \times \sum^{n}_{i = 1}{\frac{i}{\gcd(i, n)}} \\\ & = n \times \sum_{d | n}\sum_{i = 1}^{n}\frac{i}{d} \times (d == \gcd(i, n)) \\\ & = \frac{n}{d} \times \sum_{d | n}\sum^{n}_{i = 1}d == \gcd(i, n) \end{align}$$
-
-$$\text{当}\gcd(i, n) == 1 \text{时，} \gcd(n - i, n) == 1 (i, n - i \ne 1) \\\ \therefore \frac{n}{d} \times \sum_{d | n}\sum^{n}_{i = 1}d == \gcd(i, n) \\\ = \sum_{i = 1}^{n}i \times (\gcd(i, n) == 1)= n \times \frac{\varphi(d)}{2}$$
+$$\begin{align} \sum^{n}_{i = 1}{\text{lcm}(i, n)} & = \sum^{n}_{i = 1}{\frac{i \times n}{\gcd(i, n)}} \\\ & = n \times \sum^{n}_{i = 1}{\frac{i}{\gcd(i, n)}} \\\ & = n \times \sum_{d | n}\sum_{i = 1}^{n}\frac{i}{d} \times (d == \gcd(i, n)) \\\ & = \frac{n}{d} \times \sum_{d | n}\sum^{n}_{i = 1}d == \gcd(i, n) \end{align} \\\\ \text{当}\gcd(i, n) == 1 \text{时，} \gcd(n - i, n) == 1 (i, n - i \ne 1) \\\ \therefore \frac{n}{d} \times \sum_{d | n}\sum^{n}_{i = 1}d == \gcd(i, n) \\\ = \sum_{i = 1}^{n}i \times (\gcd(i, n) == 1)= n \times \frac{\varphi(d)}{2}$$
 
 ### Code
 

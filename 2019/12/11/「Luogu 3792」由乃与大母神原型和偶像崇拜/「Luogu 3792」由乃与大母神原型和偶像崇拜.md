@@ -14,8 +14,6 @@ mathjax: true
 
 Portal1: [Luogu](https://www.luogu.com.cn/problem/P3792)
 
-<!-- more -->
-
 ### Description
 
 给你一个序列$a$

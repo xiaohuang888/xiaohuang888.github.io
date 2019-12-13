@@ -14,8 +14,6 @@ mathjax: true
 
 Portal1: [LibreOJ](https://loj.ac/problem/6278/)
 
-<!-- more -->
-
 ### Description
 
 给出一个长为$n$的数列，以及$n$个操作，操作涉及区间加法，询问区间内小于某个值$n$的元素个数。

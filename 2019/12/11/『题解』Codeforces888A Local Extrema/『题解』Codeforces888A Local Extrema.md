@@ -13,8 +13,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/888/A)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF888A)
 
-<!-- more -->
-
 ### Description
 
 You are given an array $a$. Some element of this array $a_i$ is a local minimum iff it is strictly less than both of its neighbours (that is, $a_i < a_i - 1$ and $a_i < a_i + 1$). Also the element can be called local maximum iff it is strictly greater than its neighbours (that is, $a_i > a_i - 1$ and $a_i > a_i + 1$). Since a1 and an have only one neighbour each, they are neither local minima nor local maxima.

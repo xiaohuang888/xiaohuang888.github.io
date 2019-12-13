@@ -16,8 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/9/D)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF9D)
 
-<!-- more -->
-
 ### Description
 
 In one very old text file there was written Great Wisdom. This Wisdom was so Great that nobody could decipher it, even Phong - the oldest among the inhabitants of Mainframe. But still he managed to get some information from there. For example, he managed to learn that User launches games for pleasure - and then terrible Game Cubes fall down on the city, bringing death to those modules, who cannot win the game...

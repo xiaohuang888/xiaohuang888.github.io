@@ -19,8 +19,6 @@ Portal2: [LibreOJ](https://loj.ac/problem/2589)
 
 Portal3: [Vijos](https://vijos.org/p/1753)
 
-<!-- more -->
-
 ### Description
 
 `Hanks`博士是`BT`（`Bio-Tech`，生物技术）领域的知名专家，他的儿子名叫`Hankson`。现在，刚刚放学回家的`Hankson`正在思考一个有趣的问题。

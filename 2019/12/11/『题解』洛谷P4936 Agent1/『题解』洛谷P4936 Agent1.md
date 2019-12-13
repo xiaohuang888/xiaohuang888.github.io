@@ -14,8 +14,6 @@ mathjax: true
 
 Portal: [Luogu](https://www.luogu.com.cn/problem/P4936)
 
-<!-- more -->
-
 ### Description
 
 某地的`ENLIGHTENED总部`有$N$个`Agent`，每个`Agent`的能力值互不相同，现在`ENLIGHTENED行动指挥`想要派出$A, B$两队`Agent`去参加`XM大战`。但是参加大战的两个队伍要满足两个要求：

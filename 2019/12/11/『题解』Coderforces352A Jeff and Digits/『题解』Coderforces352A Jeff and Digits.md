@@ -16,7 +16,6 @@ Portal1: [Codeforces](http://codeforces.com/problemset/problem/352/A)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF352A)
 
-<!-- more -->
 
 ### Description
 

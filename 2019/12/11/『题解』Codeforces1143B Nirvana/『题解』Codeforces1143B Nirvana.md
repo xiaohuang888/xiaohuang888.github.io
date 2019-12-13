@@ -16,8 +16,6 @@ Portal1: [Codeforces](https://codeforces.com/problemset/problem/1143/B)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF1143B)
 
-<!-- more -->
-
 ### Description
 
 Kurt reaches nirvana when he finds the product of all the digits of some positive integer. Greater value of the product makes the nirvana deeper.

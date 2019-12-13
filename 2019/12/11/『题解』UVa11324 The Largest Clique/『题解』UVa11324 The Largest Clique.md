@@ -19,8 +19,6 @@ Portal2：[Luogu](https://www.luogu.com.cn/problem/UVA11324)
 
 Portal3：[Vjudge](https://vjudge.net/problem/UVA-11324)
 
-<!-- more -->
-
 ### Description
 
 Given a directed graph $\text{G}$, consider the following transformation.

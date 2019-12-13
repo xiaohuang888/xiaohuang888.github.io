@@ -14,8 +14,6 @@ mathjax: true
 
 Portal1: [LibreOJ](https://loj.ac/problem/6277)
 
-<!-- more -->
-
 ### Description
 
 给出一个长为$n$的数列，以及$n$个操作，操作涉及区间加法，单点查值。

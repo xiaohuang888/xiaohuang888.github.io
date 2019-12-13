@@ -16,8 +16,6 @@ Portal1: [Codeforces](https://codeforces.com/problemset/problem/1143/A)
 
 Portal2: [Luogu](https://www.luogu.com.cn/problem/CF1143A)
 
-<!-- more -->
-
 ### Description
 
 Three years have passes and nothing changed. It is still raining in London, and Mr. Black has to close all the doors in his home in order to not be flooded. Once, however, Mr. Black became so nervous that he opened one door, then another, then one more and so on until he opened all the doors in his house.
