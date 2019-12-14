@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2019-12-13T12:30:59.116Z</updated>
+  <updated>2019-12-14T03:15:22.371Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「AT1175」ニコニコ文字列</title>
+    <link href="https://xiaohuang888.github.io/2019/12/14/%E3%80%8CAT1175%E3%80%8D%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E6%96%87%E5%AD%97%E5%88%97/"/>
+    <id>https://xiaohuang888.github.io/2019/12/14/%E3%80%8CAT1175%E3%80%8D%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E6%96%87%E5%AD%97%E5%88%97/</id>
+    <published>2019-12-14T02:13:48.358Z</published>
+    <updated>2019-12-14T03:15:22.371Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Portal"><a href="#Portal" class="headerlink" title="Portal"></a>Portal</h3><p>Portal1: <a href="https://dwango2015-prelims.contest.atcoder.jp/tasks/dwango2015_prelims_2" target="_blank" rel="noopener">Atcoder</a></p><p>Portal2: <a href="https://www.luogu.com.cn/problem/AT1175" target="_blank" rel="noopener">Luogu</a></p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>$0$ から $9$ の数字から成る文字列 $S$ が与えられます。</p><p>ある文字列 $X$ について、$X=$”$25$” または $X=$”$2525$” または $X=$”$252525$” …… というふうに “$25$” を何回か繰り返した文字列になっているとき、$X$ はニコニコ文字列であるといいます。 たとえば “$25$” や “$25252525$” はニコニコ文字列ですが、”$123$” や “$225$” はニコニコ文字列ではありません。</p><p>あなたの仕事は、文字列 $S$ について、ニコニコ文字列となるような連続した部分文字列の取り出し方が何通りあるかを答えることです。 文字列として同じであっても、取り出し位置が異なっていれば別々に数えます。</p><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>入力は以下の形式で標準入力から与えられる。</p><p>$S$</p><p>$1$ 行目には、文字列 $S$ が与えられる。Sの長さは $1$ 以上 $100,000$ 以下である。また、$S$ の各文字は $0$ から $9$ の数字のみから成る。</p><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>$1$ 行目には、文字列 $S$ からニコニコ文字列となるような連続した部分文字列を取り出す方法が何通りあるかを出力せよ。</p><p><strong>行末の改行を忘れると不正解と判定されるので注意すること。</strong></p><h3 id="Sample-Input1"><a href="#Sample-Input1" class="headerlink" title="Sample Input1"></a>Sample Input1</h3><pre><code>2525</code></pre><h3 id="Sample-Output1"><a href="#Sample-Output1" class="headerlink" title="Sample Output1"></a>Sample Output1</h3><pre><code>3</code></pre><h3 id="Sample-Input2"><a href="#Sample-Input2" class="headerlink" title="Sample Input2"></a>Sample Input2</h3><pre><code>1251251252525</code></pre><h3 id="Sample-Output2"><a href="#Sample-Output2" class="headerlink" title="Sample Output2"></a>Sample Output2</h3><pre><code>8</code></pre><h3 id="Sample-Input3"><a href="#Sample-Input3" class="headerlink" title="Sample Input3"></a>Sample Input3</h3><pre><code>25225</code></pre><h3 id="Sample-Output3"><a href="#Sample-Output3" class="headerlink" title="Sample Output3"></a>Sample Output3</h3><pre><code>2</code></pre><h3 id="Sample-Input4"><a href="#Sample-Input4" class="headerlink" title="Sample Input4"></a>Sample Input4</h3><pre><code>252252252252252252</code></pre><h3 id="Sample-Output4"><a href="#Sample-Output4" class="headerlink" title="Sample Output4"></a>Sample Output4</h3><pre><code>6</code></pre><h3 id="Sample-Input5"><a href="#Sample-Input5" class="headerlink" title="Sample Input5"></a>Sample Input5</h3><pre><code>20061212</code></pre><h3 id="Sample-Output5"><a href="#Sample-Output5" class="headerlink" title="Sample Output5"></a>Sample Output5</h3><pre><code>0</code></pre><h3 id="Sample-Explain1"><a href="#Sample-Explain1" class="headerlink" title="Sample Explain1"></a>Sample Explain1</h3><p>$S=$”$2525$”のケースです。部分文字列が “$25$” となる取り出し方が 2 通り、”$2525$” となる取り出し方が $1$ 通りあるので合計 $3$ 通りを出力します。</p><h3 id="Hint"><a href="#Hint" class="headerlink" title="Hint"></a>Hint</h3><p>この問題には部分点が設定されています。</p><p>$N \le 2000$ を満たすデータセット $1$ にすべて正解すると、$30$ 点が得られます。 追加制約のないデータセット $2$ にすべて正解すると、上記のデータセットに加えてさらに $70$ 点が得られ、全体で $100$ 点が得られます。</p><h3 id="Description-in-Chinese"><a href="#Description-in-Chinese" class="headerlink" title="Description in Chinese"></a>Description in Chinese</h3><p>给出由$0 - 9$数字构成的字符串$S$。</p><p>对某个字符串$X$来说，如果$X=$”$25$”或$X=$”$2525$”或$X=$”$252525$”$\cdots \cdots$，$X$像这样由”$25$”重复多次组成，那么就称$X$为<code>niconico</code>字符串。例如”$25$”或”$252525$”就是<code>niconico</code>字符串，而”$123$”或”$225$”不是<code>niconico</code>字符串。</p><p>你的任务是，对于字符串$S$，请回答出$S$中有多少个子串为<code>niconico</code>字符串。即使子串相同，但是如果子串在原串中位置不同，也要分别计入总数中。</p><h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>我们可以先把连续的<code>25</code>都替换从一个字符，如<code>a</code>，然后我们找连续的<code>25</code>，每一段<code>25</code>都可以用组合数计算出<code>niconico</code>的数量。然后累加就可以了。</p><p><strong>坑：注意要开<code>long long</code>。</strong></p><h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" mdui-tooltip="{content: 'cpp'}"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstdio></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstring></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;string></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cmath></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">typedef</span> <span class="token keyword">long</span> <span class="token keyword">long</span> LL<span class="token punctuation">;</span>string st<span class="token punctuation">;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    cin <span class="token operator">>></span> st<span class="token punctuation">;</span>    string b <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> st<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>st<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'2'</span> <span class="token operator">&amp;&amp;</span> st<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'5'</span><span class="token punctuation">)</span> b <span class="token operator">=</span> b <span class="token operator">+</span> <span class="token string">'a'</span><span class="token punctuation">,</span> i<span class="token operator">++</span><span class="token punctuation">;</span> <span class="token keyword">else</span> b <span class="token operator">=</span> b <span class="token operator">+</span> st<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//将所有的"25"转化为'a'</span>    b <span class="token operator">=</span> <span class="token string">'1'</span> <span class="token operator">+</span> b <span class="token operator">+</span> <span class="token string">'1'</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//防止溢出，添加边界</span>    LL l <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> r <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//必须要long long</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> b<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>b<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'a'</span> <span class="token operator">&amp;&amp;</span> b<span class="token punctuation">[</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token string">'a'</span> <span class="token operator">&amp;&amp;</span> l <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> l <span class="token operator">=</span> i<span class="token punctuation">;</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>b<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'a'</span> <span class="token operator">&amp;&amp;</span> b<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token string">'a'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>            r <span class="token operator">=</span> i<span class="token punctuation">;</span>            ans <span class="token operator">+</span><span class="token operator">=</span> <span class="token punctuation">(</span>r <span class="token operator">-</span> l <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token punctuation">(</span>r <span class="token operator">-</span> l <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//计数连续一段的价值</span>            l <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>    <span class="token punctuation">}</span>    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%lld\n"</span><span class="token punctuation">,</span> ans<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Portal&quot;&gt;&lt;a href=&quot;#Portal&quot; class=&quot;headerlink&quot; title=&quot;Portal&quot;&gt;&lt;/a&gt;Portal&lt;/h3&gt;&lt;p&gt;Portal1: &lt;a href=&quot;https://dwango2015-prelims.contest.a
+      
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xiaohuang888.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
+      <category term="字符串" scheme="https://xiaohuang888.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+      <category term="计数" scheme="https://xiaohuang888.github.io/tags/%E8%AE%A1%E6%95%B0/"/>
+    
+      <category term="Atcoder" scheme="https://xiaohuang888.github.io/tags/Atcoder/"/>
+    
+  </entry>
   
   <entry>
     <title>『模板』快速读入 &amp; 输出模板</title>
@@ -68,11 +104,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="LibreOJ" scheme="https://xiaohuang888.github.io/tags/LibreOJ/"/>
     
@@ -102,11 +138,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="LibreOJ" scheme="https://xiaohuang888.github.io/tags/LibreOJ/"/>
     
@@ -199,13 +235,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -233,13 +269,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -267,9 +303,9 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
-    
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
       <category term="矩阵" scheme="https://xiaohuang888.github.io/tags/%E7%9F%A9%E9%98%B5/"/>
     
@@ -301,15 +337,15 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -473,13 +509,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
@@ -515,11 +551,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
-    
       <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
       <category term="ZJOI" scheme="https://xiaohuang888.github.io/tags/ZJOI/"/>
+    
+      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
   </entry>
   
@@ -617,9 +653,9 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
@@ -653,53 +689,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="模拟" scheme="https://xiaohuang888.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>『题解』BZOJ3172 [TJOI2013]单词</title>
-    <link href="https://xiaohuang888.github.io/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FBZOJ3172%20[TJOI2013]%E5%8D%95%E8%AF%8D/"/>
-    <id>https://xiaohuang888.github.io/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FBZOJ3172%20[TJOI2013]%E5%8D%95%E8%AF%8D/</id>
-    <published>2019-12-11T11:59:37.960Z</published>
-    <updated>2019-12-13T12:30:59.159Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Portal"><a href="#Portal" class="headerlink" title="Portal"></a>Portal</h3><p>Portal1：<a href="https://www.lydsy.com/JudgeOnline/problem.php?id=3172" target="_blank" rel="noopener">BZOJ</a></p><p>Portal2：<a href="https://www.luogu.com.cn/problem/P3966" target="_blank" rel="noopener">Luogu</a></p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>某人读论文，一篇论文是由许多单词组成。但他发现一个单词会在论文中出现很多次，现在想知道每个单词分别在论文中出现多少次。</p><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>第一个整数$n$，表示有多少个单词，接下来$n$行每行一个单词。每个单词由小写字母组成，$n \leq 200$，单词长度不超过$10^{6}$。</p><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>输出$n$个整数，第$i$行的数字表示第$i$个单词在文章中出现了多少次。</p><h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h3><pre><code>3aaaaaa</code></pre><h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h3><pre><code>631</code></pre><h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>暴力出奇迹！</p><h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" mdui-tooltip="{content: 'cpp'}"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstdio></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstring></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;string></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cmath></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">const</span> <span class="token keyword">int</span> MAXN<span class="token operator">=</span><span class="token number">205</span><span class="token punctuation">;</span><span class="token keyword">int</span> n<span class="token punctuation">;</span>string st<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        cin <span class="token operator">>></span> st<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token keyword">int</span> ans<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> j<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span>            <span class="token keyword">if</span> <span class="token punctuation">(</span>j<span class="token operator">!=</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment" spellcheck="true">//每次都暴力找一遍</span>                <span class="token keyword">int</span> last<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> k<span class="token operator">=</span>st<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>st<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> last<span class="token punctuation">)</span><span class="token punctuation">;</span>                <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">~</span>k<span class="token punctuation">)</span> <span class="token punctuation">{</span>                    last<span class="token operator">=</span>k<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>                    k<span class="token operator">=</span>st<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>st<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> last<span class="token punctuation">)</span><span class="token punctuation">;</span>                    ans<span class="token operator">++</span><span class="token punctuation">;</span>                <span class="token punctuation">}</span>            <span class="token punctuation">}</span>        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span><span class="token operator">++</span>ans<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//要加上自己的那个</span>    <span class="token punctuation">}</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="Attachment"><a href="#Attachment" class="headerlink" title="Attachment"></a>Attachment</h3><p>测试数据下载：<a href="https://www.lanzous.com/i3jv07a" target="_blank" rel="noopener">https://www.lanzous.com/i3jv07a</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Portal&quot;&gt;&lt;a href=&quot;#Portal&quot; class=&quot;headerlink&quot; title=&quot;Portal&quot;&gt;&lt;/a&gt;Portal&lt;/h3&gt;&lt;p&gt;Portal1：&lt;a href=&quot;https://www.lydsy.com/JudgeOnline/pro
-      
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
-    
-      <category term="字符串" scheme="https://xiaohuang888.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-    
-      <category term="枚举" scheme="https://xiaohuang888.github.io/tags/%E6%9E%9A%E4%B8%BE/"/>
-    
-      <category term="AC自动机" scheme="https://xiaohuang888.github.io/tags/AC%E8%87%AA%E5%8A%A8%E6%9C%BA/"/>
-    
-      <category term="TJOI" scheme="https://xiaohuang888.github.io/tags/TJOI/"/>
     
   </entry>
   
