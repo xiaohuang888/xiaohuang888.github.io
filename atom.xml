@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2019-12-14T03:15:22.371Z</updated>
+  <updated>2019-12-22T13:50:41.392Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「Mathematics」三角函数公式以及部分证明</title>
+    <link href="https://xiaohuang888.github.io/2019/12/15/%E3%80%8CMathematics%E3%80%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%85%AC%E5%BC%8F%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%81%E6%98%8E/"/>
+    <id>https://xiaohuang888.github.io/2019/12/15/%E3%80%8CMathematics%E3%80%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%85%AC%E5%BC%8F%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%81%E6%98%8E/</id>
+    <published>2019-12-15T12:51:00.394Z</published>
+    <updated>2019-12-22T13:50:41.392Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Define"><a href="#Define" class="headerlink" title="Define"></a>Define</h3><p><img src="https://s2.ax1x.com/2019/12/15/QhClnK.png" alt=""></p><p>在$Rt\triangle ABC$中，如下有六个三角函数的定义：</p><h4 id="正弦："><a href="#正弦：" class="headerlink" title="正弦："></a>正弦：</h4><p>$$\sin A = \frac{a}{c}$$</p><h4 id="余弦："><a href="#余弦：" class="headerlink" title="余弦："></a>余弦：</h4><p>$$\cos A = \frac{b}{c}$$</p><h4 id="正切："><a href="#正切：" class="headerlink" title="正切："></a>正切：</h4><p>$$\tan A = \frac{a}{b}$$</p><h4 id="余切："><a href="#余切：" class="headerlink" title="余切："></a>余切：</h4><p>$$\cot A = \frac{b}{a}$$</p><h4 id="正割："><a href="#正割：" class="headerlink" title="正割："></a>正割：</h4><p>$$\sec A = \frac{c}{b}$$</p><h4 id="余割："><a href="#余割：" class="headerlink" title="余割："></a>余割：</h4><p>$$\csc A = \frac{c}{a}$$</p><h3 id="Conversion-relationship"><a href="#Conversion-relationship" class="headerlink" title="Conversion relationship"></a>Conversion relationship</h3><h4 id="倒数关系"><a href="#倒数关系" class="headerlink" title="倒数关系"></a>倒数关系</h4><p>$$\cos \alpha \cdot \sec \alpha = 1$$</p><p>$$\sin \alpha \cdot \csc \alpha = 1$$</p><p>$$\tan \alpha \cdot \cot \alpha = 1$$</p><h4 id="平方关系"><a href="#平方关系" class="headerlink" title="平方关系"></a>平方关系</h4><p>$$1 + \tan ^ 2 \alpha = \sec ^ 2 \alpha$$</p><p>$$1 + \cot ^ 2 \alpha = \csc ^ 2 \alpha$$</p><p>$$\sin^2 \alpha + cos ^ 2 \alpha = 1$$</p><h4 id="商的关系"><a href="#商的关系" class="headerlink" title="商的关系"></a>商的关系</h4><p>$$\frac{\sin \alpha}{\cos \alpha} = \frac{\sec \alpha}{\csc \alpha} = \tan \alpha$$</p><p>$$\frac{\cos \alpha}{\sin \alpha} = \frac{\csc \alpha}{\sec \alpha} = \cot \alpha$$</p><h4 id="和角公式"><a href="#和角公式" class="headerlink" title="和角公式"></a>和角公式</h4><p>$$\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$$</p><p>$$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$$</p><p>$$\cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$$</p><p>$$\cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$$</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Define&quot;&gt;&lt;a href=&quot;#Define&quot; class=&quot;headerlink&quot; title=&quot;Define&quot;&gt;&lt;/a&gt;Define&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/12/15/QhClnK.png&quot; a
+      
+    
+    </summary>
+    
+    
+      <category term="Mathematics" scheme="https://xiaohuang888.github.io/categories/Mathematics/"/>
+    
+    
+      <category term="Mathematics" scheme="https://xiaohuang888.github.io/tags/Mathematics/"/>
+    
+  </entry>
   
   <entry>
     <title>「AT1175」ニコニコ文字列</title>
@@ -40,15 +66,15 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="字符串" scheme="https://xiaohuang888.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
       <category term="计数" scheme="https://xiaohuang888.github.io/tags/%E8%AE%A1%E6%95%B0/"/>
     
       <category term="Atcoder" scheme="https://xiaohuang888.github.io/tags/Atcoder/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -104,11 +130,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="LibreOJ" scheme="https://xiaohuang888.github.io/tags/LibreOJ/"/>
     
@@ -138,11 +164,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="LibreOJ" scheme="https://xiaohuang888.github.io/tags/LibreOJ/"/>
     
@@ -235,13 +261,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-      <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
+      <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
     
   </entry>
   
@@ -271,11 +297,11 @@
     
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
   </entry>
   
@@ -337,15 +363,15 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-      <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+      <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
     
   </entry>
   
@@ -509,13 +535,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-      <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
+      <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
     
       <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
@@ -655,47 +681,13 @@
     
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
       <category term="LCIS" scheme="https://xiaohuang888.github.io/tags/LCIS/"/>
     
       <category term="DP" scheme="https://xiaohuang888.github.io/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>『题解』Codeforces2A Winner</title>
-    <link href="https://xiaohuang888.github.io/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FCodeforces2A%20Winner/"/>
-    <id>https://xiaohuang888.github.io/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FCodeforces2A%20Winner/</id>
-    <published>2019-12-11T11:59:37.963Z</published>
-    <updated>2019-12-13T12:30:59.168Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Portal"><a href="#Portal" class="headerlink" title="Portal"></a>Portal</h3><p>Portal1: <a href="http://codeforces.com/problemset/problem/2/A" target="_blank" rel="noopener">Codeforces</a></p><p>Portal2: <a href="https://www.luogu.com.cn/problem/CF2A" target="_blank" rel="noopener">Luogu</a></p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>The winner of the card game popular in Berland “Berlogging” is determined according to the following rules. If at the end of the game there is only one player with the maximum number of points, he is the winner. The situation becomes more difficult if the number of such players is more than one. During each round a player gains or loses a particular number of points. In the course of the game the number of points is registered in the line “$\texttt{name score}$”, where name is a player’s name, and score is the number of points gained in this round, which is an integer number. If score is negative, this means that the player has lost in the round. So, if two or more players have the maximum number of points (say, it equals to $m$) at the end of the game, than wins the one <em>of them</em> who scored at least $m$ points first. Initially each player has $0$ points. It’s guaranteed that at the end of the game at least one player has a positive number of points.</p><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>The first line contains an integer number $n(1 \le n \le 1000)$, $n$ is the number of rounds played. Then follow $n$ lines, containing the information about the rounds in “$\texttt{name score}$” format in chronological order, where $\texttt{name}$ is a string of lower-case Latin letters with the length from $1$ to $32$, and $\texttt{score}$ is an integer number between $-1000$ and $1000$, inclusive.</p><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>Print the name of the winner.</p><h3 id="Sample-Input1"><a href="#Sample-Input1" class="headerlink" title="Sample Input1"></a>Sample Input1</h3><pre><code>3mike 3andrew 5mike 2</code></pre><h3 id="Sample-Output1"><a href="#Sample-Output1" class="headerlink" title="Sample Output1"></a>Sample Output1</h3><pre><code>andrew</code></pre><h3 id="Sample-Input2"><a href="#Sample-Input2" class="headerlink" title="Sample Input2"></a>Sample Input2</h3><pre><code>3andrew 3andrew 2mike 5</code></pre><h3 id="Sample-Output2"><a href="#Sample-Output2" class="headerlink" title="Sample Output2"></a>Sample Output2</h3><pre><code>andrew</code></pre><h3 id="Description-in-Chinese"><a href="#Description-in-Chinese" class="headerlink" title="Description in Chinese"></a>Description in Chinese</h3><p>在<code>Berland</code>流行着纸牌游戏“<code>Berlogging</code>”，这个游戏的赢家是根据以下规则确定的：在每一轮中，玩家获得或失去一定数量的分数，在游戏过程中，分数被记录在“名称和得分”行中，其中名字是玩家的名字，得分是在这一轮中获得的分数。得分是负值意味着玩家失去了相应的分数。如果在比赛结束时只有一名玩家分数最多，他就是获胜者。如果两名或两名以上的玩家在比赛结束时都有最大的分数$m$，那么其中首先获得至少$m$分的玩家胜利。开始时，每个玩家都是$0$分。保证在比赛结束时至少有一个玩家的分数为正。</p><h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>把每个人的得分存到$\texttt{map}$里，然后求出最大得分，再寻找最先到达最大得分的人，即为获胜者。</p><h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" mdui-tooltip="{content: 'cpp'}"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstdio></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstring></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cmath></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;map></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">const</span> <span class="token keyword">int</span> INF <span class="token operator">=</span> <span class="token number">0x3f3f3f3f</span><span class="token punctuation">,</span> MAXN <span class="token operator">=</span>  <span class="token number">1005</span><span class="token punctuation">;</span><span class="token keyword">int</span> n<span class="token punctuation">,</span> a<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">;</span>string name<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">;</span>map<span class="token operator">&lt;</span>string<span class="token punctuation">,</span> <span class="token keyword">int</span><span class="token operator">></span> Map1<span class="token punctuation">,</span> Map2<span class="token punctuation">;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        cin <span class="token operator">>></span> name<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">>></span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>        Map1<span class="token punctuation">[</span>name<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">+</span><span class="token operator">=</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token comment" spellcheck="true">//映射到map里</span>    <span class="token keyword">int</span> Max <span class="token operator">=</span> <span class="token operator">-</span>INF<span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>Map1<span class="token punctuation">[</span>name<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">></span> Max<span class="token punctuation">)</span> Max <span class="token operator">=</span> Map1<span class="token punctuation">[</span>name<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//求出最大得分</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        Map2<span class="token punctuation">[</span>name<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">+</span><span class="token operator">=</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>Map2<span class="token punctuation">[</span>name<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">>=</span> Max <span class="token operator">&amp;&amp;</span> Map1<span class="token punctuation">[</span>name<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">>=</span> Max<span class="token punctuation">)</span> <span class="token punctuation">{</span>            cout <span class="token operator">&lt;&lt;</span> name<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span><span class="token comment" spellcheck="true">//输出最先到最大得分的人</span>            <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>    <span class="token punctuation">}</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Portal&quot;&gt;&lt;a href=&quot;#Portal&quot; class=&quot;headerlink&quot; title=&quot;Portal&quot;&gt;&lt;/a&gt;Portal&lt;/h3&gt;&lt;p&gt;Portal1: &lt;a href=&quot;http://codeforces.com/problemset/pro
-      
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="模拟" scheme="https://xiaohuang888.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
     
   </entry>
   
