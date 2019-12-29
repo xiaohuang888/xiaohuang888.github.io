@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2019-12-22T13:50:41.392Z</updated>
+  <updated>2019-12-29T13:00:17.317Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://xiaohuang888.github.io/2019/12/15/%E3%80%8CMathematics%E3%80%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%85%AC%E5%BC%8F%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%81%E6%98%8E/"/>
     <id>https://xiaohuang888.github.io/2019/12/15/%E3%80%8CMathematics%E3%80%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%85%AC%E5%BC%8F%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%81%E6%98%8E/</id>
     <published>2019-12-15T12:51:00.394Z</published>
-    <updated>2019-12-22T13:50:41.392Z</updated>
+    <updated>2019-12-29T13:00:17.317Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Define"><a href="#Define" class="headerlink" title="Define"></a>Define</h3><p><img src="https://s2.ax1x.com/2019/12/15/QhClnK.png" alt=""></p><p>在$Rt\triangle ABC$中，如下有六个三角函数的定义：</p><h4 id="正弦："><a href="#正弦：" class="headerlink" title="正弦："></a>正弦：</h4><p>$$\sin A = \frac{a}{c}$$</p><h4 id="余弦："><a href="#余弦：" class="headerlink" title="余弦："></a>余弦：</h4><p>$$\cos A = \frac{b}{c}$$</p><h4 id="正切："><a href="#正切：" class="headerlink" title="正切："></a>正切：</h4><p>$$\tan A = \frac{a}{b}$$</p><h4 id="余切："><a href="#余切：" class="headerlink" title="余切："></a>余切：</h4><p>$$\cot A = \frac{b}{a}$$</p><h4 id="正割："><a href="#正割：" class="headerlink" title="正割："></a>正割：</h4><p>$$\sec A = \frac{c}{b}$$</p><h4 id="余割："><a href="#余割：" class="headerlink" title="余割："></a>余割：</h4><p>$$\csc A = \frac{c}{a}$$</p><h3 id="Conversion-relationship"><a href="#Conversion-relationship" class="headerlink" title="Conversion relationship"></a>Conversion relationship</h3><h4 id="倒数关系"><a href="#倒数关系" class="headerlink" title="倒数关系"></a>倒数关系</h4><p>$$\cos \alpha \cdot \sec \alpha = 1$$</p><p>$$\sin \alpha \cdot \csc \alpha = 1$$</p><p>$$\tan \alpha \cdot \cot \alpha = 1$$</p><h4 id="平方关系"><a href="#平方关系" class="headerlink" title="平方关系"></a>平方关系</h4><p>$$1 + \tan ^ 2 \alpha = \sec ^ 2 \alpha$$</p><p>$$1 + \cot ^ 2 \alpha = \csc ^ 2 \alpha$$</p><p>$$\sin^2 \alpha + cos ^ 2 \alpha = 1$$</p><h4 id="商的关系"><a href="#商的关系" class="headerlink" title="商的关系"></a>商的关系</h4><p>$$\frac{\sin \alpha}{\cos \alpha} = \frac{\sec \alpha}{\csc \alpha} = \tan \alpha$$</p><p>$$\frac{\cos \alpha}{\sin \alpha} = \frac{\csc \alpha}{\sec \alpha} = \cot \alpha$$</p><h4 id="和角公式"><a href="#和角公式" class="headerlink" title="和角公式"></a>和角公式</h4><p>$$\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$$</p><p>$$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$$</p><p>$$\cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$$</p><p>$$\cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$$</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><img src="https://s2.ax1x.com/2019/12/15/QhClnK.png" alt=""></p><p>在$Rt\triangle ABC$中，如下有六个三角函数的定义：</p><h4 id="正弦："><a href="#正弦：" class="headerlink" title="正弦："></a>正弦：</h4><p>$$\sin A = \frac{a}{c}$$</p><h4 id="余弦："><a href="#余弦：" class="headerlink" title="余弦："></a>余弦：</h4><p>$$\cos A = \frac{b}{c}$$</p><h4 id="正切："><a href="#正切：" class="headerlink" title="正切："></a>正切：</h4><p>$$\tan A = \frac{a}{b}$$</p><h4 id="余切："><a href="#余切：" class="headerlink" title="余切："></a>余切：</h4><p>$$\cot A = \frac{b}{a}$$</p><h4 id="正割："><a href="#正割：" class="headerlink" title="正割："></a>正割：</h4><p>$$\sec A = \frac{c}{b}$$</p><h4 id="余割："><a href="#余割：" class="headerlink" title="余割："></a>余割：</h4><p>$$\csc A = \frac{c}{a}$$</p><h3 id="关系-amp-公式"><a href="#关系-amp-公式" class="headerlink" title="关系 &amp; 公式"></a>关系 &amp; 公式</h3><h4 id="倒数关系"><a href="#倒数关系" class="headerlink" title="倒数关系"></a>倒数关系</h4><p>$$\cos \alpha \cdot \sec \alpha = 1$$</p><p>$$\sin \alpha \cdot \csc \alpha = 1$$</p><p>$$\tan \alpha \cdot \cot \alpha = 1$$</p><h4 id="平方关系"><a href="#平方关系" class="headerlink" title="平方关系"></a>平方关系</h4><p>$$1 + \tan ^ 2 \alpha = \sec ^ 2 \alpha$$</p><p>$$1 + \cot ^ 2 \alpha = \csc ^ 2 \alpha$$</p><p>$$\sin^2 \alpha + cos ^ 2 \alpha = 1$$</p><h4 id="商的关系"><a href="#商的关系" class="headerlink" title="商的关系"></a>商的关系</h4><p>$$\frac{\sin \alpha}{\cos \alpha} = \frac{\sec \alpha}{\csc \alpha} = \tan \alpha$$</p><p>$$\frac{\cos \alpha}{\sin \alpha} = \frac{\csc \alpha}{\sec \alpha} = \cot \alpha$$</p><h4 id="正弦定理"><a href="#正弦定理" class="headerlink" title="正弦定理"></a>正弦定理</h4><p>$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R = D$$</p><p>$R$ 为三角形外切圆半径，$D$ 为三角形外切圆直径。</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2019/12/25/lFqL0x.png" alt=""></p><p>如图在 $\triangle ABC$ 中可得 $\sin A = \frac{h}{b}$ 和 $\sin B = \frac{h}{a}$ 。</p><p>$$\therefore h = \sin A \times b, h = \sin B \times a \\\ \therefore \sin A \times b = \sin B \times a \\\ \therefore \frac{\sin A}{a} = \frac{\sin B}{b} \\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B}$$</p><p><img src="https://s2.ax1x.com/2019/12/29/lKnCNQ.png" alt=""></p><p>如图</p><h4 id="和角公式"><a href="#和角公式" class="headerlink" title="和角公式"></a>和角公式</h4><p>$$\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$$</p><p>$$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$$</p><p>$$\cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$$</p><p>$$\cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$$</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;Define&quot;&gt;&lt;a href=&quot;#Define&quot; class=&quot;headerlink&quot; title=&quot;Define&quot;&gt;&lt;/a&gt;Define&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/12/15/QhClnK.png&quot; a
+        &lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/12/15/QhClnK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在$
       
     
     </summary>
@@ -577,11 +578,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
+      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
+    
       <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
       <category term="ZJOI" scheme="https://xiaohuang888.github.io/tags/ZJOI/"/>
-    
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
   </entry>
   

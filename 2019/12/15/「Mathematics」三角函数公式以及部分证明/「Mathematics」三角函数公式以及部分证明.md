@@ -6,7 +6,7 @@ tags:
 mathjax: true
 ---
 
-### Define
+### 定义
 
 ![](https://s2.ax1x.com/2019/12/15/QhClnK.png)
 
@@ -36,7 +36,7 @@ $$\sec A = \frac{c}{b}$$
 
 $$\csc A = \frac{c}{a}$$
 
-### Conversion relationship
+### 关系 & 公式
 
 #### 倒数关系
 
@@ -59,6 +59,24 @@ $$\sin^2 \alpha + cos ^ 2 \alpha = 1$$
 $$\frac{\sin \alpha}{\cos \alpha} = \frac{\sec \alpha}{\csc \alpha} = \tan \alpha$$
 
 $$\frac{\cos \alpha}{\sin \alpha} = \frac{\csc \alpha}{\sec \alpha} = \cot \alpha$$
+
+#### 正弦定理
+
+$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R = D$$
+
+$R$ 为三角形外切圆半径，$D$ 为三角形外切圆直径。
+
+**证明：**
+
+![](https://s2.ax1x.com/2019/12/25/lFqL0x.png)
+
+如图在 $\triangle ABC$ 中可得 $\sin A = \frac{h}{b}$ 和 $\sin B = \frac{h}{a}$ 。
+
+$$\therefore h = \sin A \times b, h = \sin B \times a \\\\ \therefore \sin A \times b = \sin B \times a \\\\ \therefore \frac{\sin A}{a} = \frac{\sin B}{b} \\\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B}$$
+
+![](https://s2.ax1x.com/2019/12/29/lKnCNQ.png)
+
+如图
 
 #### 和角公式
 
