@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2019-12-31T08:29:09.955Z</updated>
+  <updated>2019-12-31T08:35:54.893Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://xiaohuang888.github.io/2019/12/31/%E5%85%83%E6%97%A6%E5%80%92%E8%AE%A1%E6%97%B6/"/>
     <id>https://xiaohuang888.github.io/2019/12/31/%E5%85%83%E6%97%A6%E5%80%92%E8%AE%A1%E6%97%B6/</id>
     <published>2019-12-31T08:27:53.773Z</published>
-    <updated>2019-12-31T08:29:09.955Z</updated>
+    <updated>2019-12-31T08:35:54.893Z</updated>
     
-    <content type="html"><![CDATA[<html><head><title>新年倒计时</title><style>.label {  font-size: 2.2rem;  background-clip: text;  -webkit-background-clip: text;  color: transparent;  animation: moveBg 30s linear infinite;}.middle {  position: absolute;  top: 50%;  left: 50%;  transform: translate(-50%, -50%);  text-align: center;  user-select: none;}.time {  color: #d99c3b;  text-transform: uppercase;  display: flex;  justify-content: center;}.time span {  padding: 0 14px;  font-size: 0.8rem;}.time span div {  font-size: 3rem;}@media (max-width: 740px) {  .label {    font-size: 1.7rem;  }  .time span {    padding: 0 16px;    font-size: 0.6rem;  }  .time span div {    font-size: 2rem;  }}</style><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="/atom.xml" title="XiaoHuang's Space" type="application/atom+xml"></head><body><div class="middle"><div class="time"><span><div id="d">00</div>Days </span> <span><div id="h">00</div>Hours </span> <span><div id="m">00</div>Minutes </span> <span><div id="s">00</div>Seconds </span></div></div><script>const comingdate = new Date("Jan 1, 2020 00:00:00");const d = document.getElementById("d");const h = document.getElementById("h");const m = document.getElementById("m");const s = document.getElementById("s");const countdown = setInterval(() => {  const now   = new Date();  const des   = comingdate.getTime() - now.getTime();  const days  = Math.floor(des / (1000 * 60 * 60 * 24));  const hours = Math.floor((des % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  const mins  = Math.floor((des % (1000 * 60 * 60)) / (1000 * 60));  const secs  = Math.floor((des % (1000 * 60)) / 1000);  d.innerHTML = getTrueNumber(days);  h.innerHTML = getTrueNumber(hours);  m.innerHTML = getTrueNumber(mins);  s.innerHTML = getTrueNumber(secs);  if (x <= 0) clearInterval(x);}, 1000);const getTrueNumber = x => (x < 10 ? "0" + x : x);</script></body></html>]]></content>
+    <content type="html"><![CDATA[<html><head><title>元旦倒计时</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style>.middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;user-select:none;}.time{color:#8589ff;text-transform:uppercase;display:flex;justify-content:center;}.time span{padding:0 14px;font-size:0.8rem;}.time span div{font-size:3rem;}@media (max-width:740px){.time span{padding:0 16px;font-size:0.6rem;}.time span div{font-size:2rem;}}</style><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="/atom.xml" title="XiaoHuang's Space" type="application/atom+xml"></head><body><div class="middle"><div class="time"><span><div id="d">00</div>Days </span> <span><div id="h">00</div>Hours </span> <span><div id="m">00</div>Minutes </span> <span><div id="s">00</div>Seconds </span></div></div><script>const comingdate = new Date("Jan 1, 2020 00:00:00");const d = document.getElementById("d");const h = document.getElementById("h");const m = document.getElementById("m");const s = document.getElementById("s");const countdown = setInterval(() => {  const now   = new Date();  const des   = comingdate.getTime() - now.getTime();  const days  = Math.floor(des / (1000 * 60 * 60 * 24));  const hours = Math.floor((des % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  const mins  = Math.floor((des % (1000 * 60 * 60)) / (1000 * 60));  const secs  = Math.floor((des % (1000 * 60)) / 1000);  d.innerHTML = getTrueNumber(days);  h.innerHTML = getTrueNumber(hours);  m.innerHTML = getTrueNumber(mins);  s.innerHTML = getTrueNumber(secs);  if (x <= 0) clearInterval(x);}, 1000);const getTrueNumber = x => (x < 10 ? "0" + x : x);</script></body></html>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;html&gt;&lt;head&gt;&lt;title&gt;新年倒计时&lt;/title&gt;&lt;style&gt;.label {  font-size: 2.2rem;  background-clip: text;  -webkit-background-clip: text;  color: transpar
+        &lt;html&gt;&lt;head&gt;&lt;title&gt;元旦倒计时&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;style&gt;.middle{position:absolute;top:50%;
       
     
     </summary>
@@ -642,9 +642,9 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="模板" scheme="https://xiaohuang888.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
       <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
+    
+      <category term="模板" scheme="https://xiaohuang888.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
