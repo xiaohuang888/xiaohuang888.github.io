@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2019-12-29T13:00:17.317Z</updated>
+  <updated>2019-12-31T08:29:09.955Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>元旦倒计时</title>
+    <link href="https://xiaohuang888.github.io/2019/12/31/%E5%85%83%E6%97%A6%E5%80%92%E8%AE%A1%E6%97%B6/"/>
+    <id>https://xiaohuang888.github.io/2019/12/31/%E5%85%83%E6%97%A6%E5%80%92%E8%AE%A1%E6%97%B6/</id>
+    <published>2019-12-31T08:27:53.773Z</published>
+    <updated>2019-12-31T08:29:09.955Z</updated>
+    
+    <content type="html"><![CDATA[<html><head><title>新年倒计时</title><style>.label {  font-size: 2.2rem;  background-clip: text;  -webkit-background-clip: text;  color: transparent;  animation: moveBg 30s linear infinite;}.middle {  position: absolute;  top: 50%;  left: 50%;  transform: translate(-50%, -50%);  text-align: center;  user-select: none;}.time {  color: #d99c3b;  text-transform: uppercase;  display: flex;  justify-content: center;}.time span {  padding: 0 14px;  font-size: 0.8rem;}.time span div {  font-size: 3rem;}@media (max-width: 740px) {  .label {    font-size: 1.7rem;  }  .time span {    padding: 0 16px;    font-size: 0.6rem;  }  .time span div {    font-size: 2rem;  }}</style><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="/atom.xml" title="XiaoHuang's Space" type="application/atom+xml"></head><body><div class="middle"><div class="time"><span><div id="d">00</div>Days </span> <span><div id="h">00</div>Hours </span> <span><div id="m">00</div>Minutes </span> <span><div id="s">00</div>Seconds </span></div></div><script>const comingdate = new Date("Jan 1, 2020 00:00:00");const d = document.getElementById("d");const h = document.getElementById("h");const m = document.getElementById("m");const s = document.getElementById("s");const countdown = setInterval(() => {  const now   = new Date();  const des   = comingdate.getTime() - now.getTime();  const days  = Math.floor(des / (1000 * 60 * 60 * 24));  const hours = Math.floor((des % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  const mins  = Math.floor((des % (1000 * 60 * 60)) / (1000 * 60));  const secs  = Math.floor((des % (1000 * 60)) / 1000);  d.innerHTML = getTrueNumber(days);  h.innerHTML = getTrueNumber(hours);  m.innerHTML = getTrueNumber(mins);  s.innerHTML = getTrueNumber(secs);  if (x <= 0) clearInterval(x);}, 1000);const getTrueNumber = x => (x < 10 ? "0" + x : x);</script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;html&gt;&lt;head&gt;&lt;title&gt;新年倒计时&lt;/title&gt;&lt;style&gt;.label {  font-size: 2.2rem;  background-clip: text;  -webkit-background-clip: text;  color: transpar
+      
+    
+    </summary>
+    
+    
+      <category term="新年" scheme="https://xiaohuang888.github.io/categories/%E6%96%B0%E5%B9%B4/"/>
+    
+    
+      <category term="倒计时" scheme="https://xiaohuang888.github.io/tags/%E5%80%92%E8%AE%A1%E6%97%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>「Mathematics」三角函数公式以及部分证明</title>
     <link href="https://xiaohuang888.github.io/2019/12/15/%E3%80%8CMathematics%E3%80%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%85%AC%E5%BC%8F%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%81%E6%98%8E/"/>
     <id>https://xiaohuang888.github.io/2019/12/15/%E3%80%8CMathematics%E3%80%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%85%AC%E5%BC%8F%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%81%E6%98%8E/</id>
     <published>2019-12-15T12:51:00.394Z</published>
-    <updated>2019-12-29T13:00:17.317Z</updated>
+    <updated>2019-12-29T13:37:58.795Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><img src="https://s2.ax1x.com/2019/12/15/QhClnK.png" alt=""></p><p>在$Rt\triangle ABC$中，如下有六个三角函数的定义：</p><h4 id="正弦："><a href="#正弦：" class="headerlink" title="正弦："></a>正弦：</h4><p>$$\sin A = \frac{a}{c}$$</p><h4 id="余弦："><a href="#余弦：" class="headerlink" title="余弦："></a>余弦：</h4><p>$$\cos A = \frac{b}{c}$$</p><h4 id="正切："><a href="#正切：" class="headerlink" title="正切："></a>正切：</h4><p>$$\tan A = \frac{a}{b}$$</p><h4 id="余切："><a href="#余切：" class="headerlink" title="余切："></a>余切：</h4><p>$$\cot A = \frac{b}{a}$$</p><h4 id="正割："><a href="#正割：" class="headerlink" title="正割："></a>正割：</h4><p>$$\sec A = \frac{c}{b}$$</p><h4 id="余割："><a href="#余割：" class="headerlink" title="余割："></a>余割：</h4><p>$$\csc A = \frac{c}{a}$$</p><h3 id="关系-amp-公式"><a href="#关系-amp-公式" class="headerlink" title="关系 &amp; 公式"></a>关系 &amp; 公式</h3><h4 id="倒数关系"><a href="#倒数关系" class="headerlink" title="倒数关系"></a>倒数关系</h4><p>$$\cos \alpha \cdot \sec \alpha = 1$$</p><p>$$\sin \alpha \cdot \csc \alpha = 1$$</p><p>$$\tan \alpha \cdot \cot \alpha = 1$$</p><h4 id="平方关系"><a href="#平方关系" class="headerlink" title="平方关系"></a>平方关系</h4><p>$$1 + \tan ^ 2 \alpha = \sec ^ 2 \alpha$$</p><p>$$1 + \cot ^ 2 \alpha = \csc ^ 2 \alpha$$</p><p>$$\sin^2 \alpha + cos ^ 2 \alpha = 1$$</p><h4 id="商的关系"><a href="#商的关系" class="headerlink" title="商的关系"></a>商的关系</h4><p>$$\frac{\sin \alpha}{\cos \alpha} = \frac{\sec \alpha}{\csc \alpha} = \tan \alpha$$</p><p>$$\frac{\cos \alpha}{\sin \alpha} = \frac{\csc \alpha}{\sec \alpha} = \cot \alpha$$</p><h4 id="正弦定理"><a href="#正弦定理" class="headerlink" title="正弦定理"></a>正弦定理</h4><p>$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R = D$$</p><p>$R$ 为三角形外切圆半径，$D$ 为三角形外切圆直径。</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2019/12/25/lFqL0x.png" alt=""></p><p>如图在 $\triangle ABC$ 中可得 $\sin A = \frac{h}{b}$ 和 $\sin B = \frac{h}{a}$ 。</p><p>$$\therefore h = \sin A \times b, h = \sin B \times a \\\ \therefore \sin A \times b = \sin B \times a \\\ \therefore \frac{\sin A}{a} = \frac{\sin B}{b} \\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B}$$</p><p><img src="https://s2.ax1x.com/2019/12/29/lKnCNQ.png" alt=""></p><p>如图</p><h4 id="和角公式"><a href="#和角公式" class="headerlink" title="和角公式"></a>和角公式</h4><p>$$\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$$</p><p>$$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$$</p><p>$$\cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$$</p><p>$$\cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$$</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><img src="https://s2.ax1x.com/2019/12/15/QhClnK.png" alt=""></p><p>在$Rt\triangle ABC$中，如下有六个三角函数的定义：</p><h4 id="正弦："><a href="#正弦：" class="headerlink" title="正弦："></a>正弦：</h4><p>$$\sin A = \frac{a}{c}$$</p><h4 id="余弦："><a href="#余弦：" class="headerlink" title="余弦："></a>余弦：</h4><p>$$\cos A = \frac{b}{c}$$</p><h4 id="正切："><a href="#正切：" class="headerlink" title="正切："></a>正切：</h4><p>$$\tan A = \frac{a}{b}$$</p><h4 id="余切："><a href="#余切：" class="headerlink" title="余切："></a>余切：</h4><p>$$\cot A = \frac{b}{a}$$</p><h4 id="正割："><a href="#正割：" class="headerlink" title="正割："></a>正割：</h4><p>$$\sec A = \frac{c}{b}$$</p><h4 id="余割："><a href="#余割：" class="headerlink" title="余割："></a>余割：</h4><p>$$\csc A = \frac{c}{a}$$</p><h3 id="关系-amp-公式"><a href="#关系-amp-公式" class="headerlink" title="关系 &amp; 公式"></a>关系 &amp; 公式</h3><h4 id="倒数关系"><a href="#倒数关系" class="headerlink" title="倒数关系"></a>倒数关系</h4><p>$$\cos \alpha \cdot \sec \alpha = 1$$</p><p>$$\sin \alpha \cdot \csc \alpha = 1$$</p><p>$$\tan \alpha \cdot \cot \alpha = 1$$</p><h4 id="平方关系"><a href="#平方关系" class="headerlink" title="平方关系"></a>平方关系</h4><p>$$1 + \tan ^ 2 \alpha = \sec ^ 2 \alpha$$</p><p>$$1 + \cot ^ 2 \alpha = \csc ^ 2 \alpha$$</p><p>$$\sin^2 \alpha + cos ^ 2 \alpha = 1$$</p><h4 id="商的关系"><a href="#商的关系" class="headerlink" title="商的关系"></a>商的关系</h4><p>$$\frac{\sin \alpha}{\cos \alpha} = \frac{\sec \alpha}{\csc \alpha} = \tan \alpha$$</p><p>$$\frac{\cos \alpha}{\sin \alpha} = \frac{\csc \alpha}{\sec \alpha} = \cot \alpha$$</p><h4 id="正弦定理"><a href="#正弦定理" class="headerlink" title="正弦定理"></a>正弦定理</h4><p>$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R = D$$</p><p>$R$ 为三角形外切圆半径，$D$ 为三角形外切圆直径。</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2019/12/25/lFqL0x.png" alt=""></p><p>如图在 $\triangle ABC$ 中可得 $\sin A = \frac{h}{b}$ 和 $\sin B = \frac{h}{a}$ 。</p><p>$$\therefore h = \sin A \times b, h = \sin B \times a \\\ \therefore \sin A \times b = \sin B \times a \\\ \therefore \frac{\sin A}{a} = \frac{\sin B}{b} \\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B} \\\ \textrm{同理：} \frac{a}{\sin A} = \frac{c}{\sin C} \\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$</p><p><img src="https://s2.ax1x.com/2019/12/29/lKnCNQ.png" alt=""></p><p>如图， $\triangle CDB$ 中线段 $CD$ 经过圆心，所以 $\angle CBD = 90 ^ \circ$ ， $CD = 2R$。</p><p>$$\therefore \sin A = \sin D = \frac{CB}{CD} = \frac{a}{2R} \\\ \therefore \frac{a}{\sin A} = 2R \\\ \textrm{同理：} \frac{b}{\sin B} = 2R, \frac{c}{\sin C} = 2R \\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R = D$$</p><h4 id="余弦定理"><a href="#余弦定理" class="headerlink" title="余弦定理"></a>余弦定理</h4><h4 id="和角公式"><a href="#和角公式" class="headerlink" title="和角公式"></a>和角公式</h4><p>$$\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$$</p><p>$$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$$</p><p>$$\cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$$</p><p>$$\cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$$</p>]]></content>
     
     <summary type="html">
     
@@ -40,6 +66,8 @@
     
     
       <category term="Mathematics" scheme="https://xiaohuang888.github.io/tags/Mathematics/"/>
+    
+      <category term="三角函数" scheme="https://xiaohuang888.github.io/tags/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
@@ -300,9 +328,9 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
-    
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -368,11 +396,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
   </entry>
   
@@ -578,11 +606,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
-    
       <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
       <category term="ZJOI" scheme="https://xiaohuang888.github.io/tags/ZJOI/"/>
+    
+      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
   </entry>
   
@@ -653,42 +681,6 @@
       <category term="Tarjan" scheme="https://xiaohuang888.github.io/tags/Tarjan/"/>
     
       <category term="UVa" scheme="https://xiaohuang888.github.io/tags/UVa/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>『题解』Codeforces10D LCIS</title>
-    <link href="https://xiaohuang888.github.io/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FCodeforces10D%20LCIS/"/>
-    <id>https://xiaohuang888.github.io/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FCodeforces10D%20LCIS/</id>
-    <published>2019-12-11T11:59:37.967Z</published>
-    <updated>2019-12-13T12:30:59.187Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Portal"><a href="#Portal" class="headerlink" title="Portal:"></a>Portal:</h3><p>Portal1: <a href="http://codeforces.com/problemset/problem/10/D" target="_blank" rel="noopener">Codeforces</a></p><p>Portal2: <a href="https://www.luogu.com.cn/problem/CF10D" target="_blank" rel="noopener">Luogu</a></p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p><em>This problem differs from one which was on the online contest.</em></p><p>The sequence $a_1, a_2, \cdots , a_n$ is called increasing, if $a_i &lt; a_{i + 1}$ for $i &lt; n$.</p><p>The sequence $s_1, s_2, \cdots , a_n$ is called the subsequence of the sequence $a_1, a_2, \cdots , a_n$, if there exist such a set of indexes $1 \le i_1 &lt; i_2 &lt; \cdots &lt; i_k \le n$ that $a_{i, j} = s_j$. In other words, the sequence $s$ can be derived from the sequence $a$ by crossing out some elements.</p><p>You are given two sequences of integer numbers. You are to find their longest common increasing subsequence, i.e. an increasing sequence of maximum length that is the subsequence of both sequences.</p><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>The first line contains an integer $n (1 \le n \le 500)$ — the length of the first sequence. The second line contains $n$ space-separated integers from the range $[0, 10^9]$ — elements of the first sequence. The third line contains an integer $m (1 \le m \le 500)$ — the length of the second sequence. The fourth line contains <em>m</em> space-separated integers from the range $[0, 10^9]$ — elements of the second sequence.</p><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>In the first line output $k$ — the length of the longest common increasing subsequence. In the second line output the subsequence itself. Separate the elements with a space. If there are several solutions, output any.</p><h3 id="Sample-Input1"><a href="#Sample-Input1" class="headerlink" title="Sample Input1"></a>Sample Input1</h3><pre><code>72 3 1 6 5 4 641 3 5 6</code></pre><h3 id="Sample-Output1"><a href="#Sample-Output1" class="headerlink" title="Sample Output1"></a>Sample Output1</h3><pre><code>33 5 6</code></pre><h3 id="Sample-Input2"><a href="#Sample-Input2" class="headerlink" title="Sample Input2"></a>Sample Input2</h3><pre><code>51 2 0 2 131 0 1</code></pre><h3 id="Sample-Output2"><a href="#Sample-Output2" class="headerlink" title="Sample Output2"></a>Sample Output2</h3><pre><code>20 1</code></pre><h3 id="Description-in-Chinese"><a href="#Description-in-Chinese" class="headerlink" title="Description in Chinese"></a>Description in Chinese</h3><p>求两个序列的最长公共上升子序列。</p><h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>用$\texttt{f[i][j]}$表示$\texttt{A}$与$\texttt{B}$构成的以$b_j$为结尾的最长公共上升子序列的长度。</p><p>动态转移方程为：</p><p>$$f[i][j] = \max_{k = 0}^{j - 1}{(f[i - 1][k] + 1)}, \texttt{其中}B_k &lt; B_j$$</p><p>而$k$这一维可以省去，在状态转移后记录最大符合要求的$f[k]$作为下一次的转移，正确性仍旧不变。</p><p>所以，最后的时间复杂度为$O(n^2)$。</p><h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" mdui-tooltip="{content: 'cpp'}"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstdio></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstring></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cmath></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">const</span> <span class="token keyword">int</span> MAXN <span class="token operator">=</span> <span class="token number">505</span><span class="token punctuation">;</span><span class="token keyword">int</span> n<span class="token punctuation">,</span> m<span class="token punctuation">,</span> a<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">,</span> b<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">,</span> ans<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">,</span> scheme<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>m<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> m<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>b<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment" spellcheck="true">//动态规划主要部分</span>        <span class="token keyword">int</span> id <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&lt;=</span> m<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>            <span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> b<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>                dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> dp<span class="token punctuation">[</span>id<span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>                scheme<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> id<span class="token punctuation">;</span>            <span class="token punctuation">}</span>            <span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">></span> b<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> dp<span class="token punctuation">[</span>id<span class="token punctuation">]</span> <span class="token operator">&lt;</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> id <span class="token operator">=</span> j<span class="token punctuation">;</span>        <span class="token punctuation">}</span>    <span class="token punctuation">}</span>    <span class="token keyword">int</span> id <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> m<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">></span> dp<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token punctuation">)</span> id <span class="token operator">=</span> i<span class="token punctuation">;</span>    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> top <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">while</span> <span class="token punctuation">(</span>dp<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        ans<span class="token punctuation">[</span><span class="token operator">++</span>top<span class="token punctuation">]</span> <span class="token operator">=</span> b<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token punctuation">;</span>        id <span class="token operator">=</span> scheme<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> top<span class="token punctuation">;</span> i <span class="token operator">>=</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span>        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> ans<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//输出方案前需要记录</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Portal&quot;&gt;&lt;a href=&quot;#Portal&quot; class=&quot;headerlink&quot; title=&quot;Portal:&quot;&gt;&lt;/a&gt;Portal:&lt;/h3&gt;&lt;p&gt;Portal1: &lt;a href=&quot;http://codeforces.com/problemset/p
-      
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
-      <category term="LCIS" scheme="https://xiaohuang888.github.io/tags/LCIS/"/>
-    
-      <category term="DP" scheme="https://xiaohuang888.github.io/tags/DP/"/>
     
   </entry>
   

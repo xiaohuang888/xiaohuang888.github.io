@@ -3,6 +3,7 @@ title: 「Mathematics」三角函数公式以及部分证明
 categories: Mathematics
 tags:
     - Mathematics
+    - 三角函数
 mathjax: true
 ---
 
@@ -72,11 +73,15 @@ $R$ 为三角形外切圆半径，$D$ 为三角形外切圆直径。
 
 如图在 $\triangle ABC$ 中可得 $\sin A = \frac{h}{b}$ 和 $\sin B = \frac{h}{a}$ 。
 
-$$\therefore h = \sin A \times b, h = \sin B \times a \\\\ \therefore \sin A \times b = \sin B \times a \\\\ \therefore \frac{\sin A}{a} = \frac{\sin B}{b} \\\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B}$$
+$$\therefore h = \sin A \times b, h = \sin B \times a \\\\ \therefore \sin A \times b = \sin B \times a \\\\ \therefore \frac{\sin A}{a} = \frac{\sin B}{b} \\\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B} \\\\ \textrm{同理：} \frac{a}{\sin A} = \frac{c}{\sin C} \\\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
 
 ![](https://s2.ax1x.com/2019/12/29/lKnCNQ.png)
 
-如图
+如图， $\triangle CDB$ 中线段 $CD$ 经过圆心，所以 $\angle CBD = 90 ^ \circ$ ， $CD = 2R$。
+
+$$\therefore \sin A = \sin D = \frac{CB}{CD} = \frac{a}{2R} \\\\ \therefore \frac{a}{\sin A} = 2R \\\\ \textrm{同理：} \frac{b}{\sin B} = 2R, \frac{c}{\sin C} = 2R \\\\ \therefore \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R = D$$
+
+#### 余弦定理
 
 #### 和角公式
 
