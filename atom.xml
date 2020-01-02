@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2019-12-31T08:35:54.893Z</updated>
+  <updated>2020-01-02T14:09:36.337Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>元旦倒计时</title>
-    <link href="https://xiaohuang888.github.io/2019/12/31/%E5%85%83%E6%97%A6%E5%80%92%E8%AE%A1%E6%97%B6/"/>
-    <id>https://xiaohuang888.github.io/2019/12/31/%E5%85%83%E6%97%A6%E5%80%92%E8%AE%A1%E6%97%B6/</id>
+    <title>春节倒计时</title>
+    <link href="https://xiaohuang888.github.io/2019/12/31/%E6%98%A5%E8%8A%82%E5%80%92%E8%AE%A1%E6%97%B6/"/>
+    <id>https://xiaohuang888.github.io/2019/12/31/%E6%98%A5%E8%8A%82%E5%80%92%E8%AE%A1%E6%97%B6/</id>
     <published>2019-12-31T08:27:53.773Z</published>
-    <updated>2019-12-31T08:35:54.893Z</updated>
+    <updated>2020-01-02T14:09:36.337Z</updated>
     
-    <content type="html"><![CDATA[<html><head><title>元旦倒计时</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style>.middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;user-select:none;}.time{color:#8589ff;text-transform:uppercase;display:flex;justify-content:center;}.time span{padding:0 14px;font-size:0.8rem;}.time span div{font-size:3rem;}@media (max-width:740px){.time span{padding:0 16px;font-size:0.6rem;}.time span div{font-size:2rem;}}</style><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="/atom.xml" title="XiaoHuang's Space" type="application/atom+xml"></head><body><div class="middle"><div class="time"><span><div id="d">00</div>Days </span> <span><div id="h">00</div>Hours </span> <span><div id="m">00</div>Minutes </span> <span><div id="s">00</div>Seconds </span></div></div><script>const comingdate = new Date("Jan 1, 2020 00:00:00");const d = document.getElementById("d");const h = document.getElementById("h");const m = document.getElementById("m");const s = document.getElementById("s");const countdown = setInterval(() => {  const now   = new Date();  const des   = comingdate.getTime() - now.getTime();  const days  = Math.floor(des / (1000 * 60 * 60 * 24));  const hours = Math.floor((des % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  const mins  = Math.floor((des % (1000 * 60 * 60)) / (1000 * 60));  const secs  = Math.floor((des % (1000 * 60)) / 1000);  d.innerHTML = getTrueNumber(days);  h.innerHTML = getTrueNumber(hours);  m.innerHTML = getTrueNumber(mins);  s.innerHTML = getTrueNumber(secs);  if (x <= 0) clearInterval(x);}, 1000);const getTrueNumber = x => (x < 10 ? "0" + x : x);</script></body></html>]]></content>
+    <content type="html"><![CDATA[<html><head><title>春节倒计时</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style>.middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;user-select:none;}.time{color:#8589ff;text-transform:uppercase;display:flex;justify-content:center;}.time span{padding:0 14px;font-size:0.8rem;}.time span div{font-size:3rem;}@media (max-width:740px){.time span{padding:0 16px;font-size:0.6rem;}.time span div{font-size:2rem;}}</style><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="/atom.xml" title="XiaoHuang's Space" type="application/atom+xml"></head><body><div class="middle"><div class="time"><span><div id="d">00</div>Days </span> <span><div id="h">00</div>Hours </span> <span><div id="m">00</div>Minutes </span> <span><div id="s">00</div>Seconds </span></div></div><script>const comingdate = new Date("Jan 25, 2020 00:00:00");const d = document.getElementById("d");const h = document.getElementById("h");const m = document.getElementById("m");const s = document.getElementById("s");const countdown = setInterval(() => {  const now   = new Date();  const des   = comingdate.getTime() - now.getTime();  const days  = Math.floor(des / (1000 * 60 * 60 * 24));  const hours = Math.floor((des % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  const mins  = Math.floor((des % (1000 * 60 * 60)) / (1000 * 60));  const secs  = Math.floor((des % (1000 * 60)) / 1000);  d.innerHTML = getTrueNumber(days);  h.innerHTML = getTrueNumber(hours);  m.innerHTML = getTrueNumber(mins);  s.innerHTML = getTrueNumber(secs);  if (x <= 0) clearInterval(x);}, 1000);const getTrueNumber = x => (x < 10 ? "0" + x : x);</script></body></html>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;html&gt;&lt;head&gt;&lt;title&gt;元旦倒计时&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;style&gt;.middle{position:absolute;top:50%;
+        &lt;html&gt;&lt;head&gt;&lt;title&gt;春节倒计时&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;style&gt;.middle{position:absolute;top:50%;
       
     
     </summary>
@@ -95,15 +95,15 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
       <category term="字符串" scheme="https://xiaohuang888.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
       <category term="计数" scheme="https://xiaohuang888.github.io/tags/%E8%AE%A1%E6%95%B0/"/>
     
       <category term="Atcoder" scheme="https://xiaohuang888.github.io/tags/Atcoder/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -159,11 +159,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="LibreOJ" scheme="https://xiaohuang888.github.io/tags/LibreOJ/"/>
     
@@ -193,11 +193,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="LibreOJ" scheme="https://xiaohuang888.github.io/tags/LibreOJ/"/>
     
@@ -260,9 +260,9 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
-    
       <category term="数论，数学" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E8%AE%BA%EF%BC%8C%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
   </entry>
   
@@ -290,13 +290,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -326,9 +326,9 @@
     
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
@@ -392,15 +392,15 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
     
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -564,13 +564,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
@@ -606,11 +606,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
+      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
+    
       <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
       <category term="ZJOI" scheme="https://xiaohuang888.github.io/tags/ZJOI/"/>
-    
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
   </entry>
   
@@ -642,9 +642,9 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
-    
       <category term="模板" scheme="https://xiaohuang888.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+      <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
   </entry>
   
