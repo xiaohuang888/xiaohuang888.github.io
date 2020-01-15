@@ -92,3 +92,24 @@ $$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$$
 $$\cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$$
 
 $$\cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$$
+
+### Attachment
+
+**常用三角函数值对照表：**
+
+|角$\alpha$|弧度|$\sin$值|$\cos$值|$\tan$值|
+|:---:|:---:|:---:|:---:|:---:|
+|$0^\circ$|$0$|$0$|$1$|$0$|
+|$15^\circ$|$\frac{\pi}{12}$|$\frac{\sqrt{6} - \sqrt{2}}{4}$|$\frac{\sqrt{6} + \sqrt{2}}{4}$|$2 - \sqrt{3}$|
+|$22.5^\circ$|$\frac{\pi}{8}$|$\frac{\sqrt{2 - \sqrt{2}}}{2}$|$\frac{\sqrt{2 + \sqrt{2}}}{2}$|$-1 + \sqrt{2}$|
+|$30^\circ$|$\frac{\pi}{6}$|$\frac{1}{2}$|$\frac{\sqrt{3}}{2}$|$\frac{\sqrt{3}}{3}$|
+|$45^\circ$|$\frac{\pi}{4}$|$\frac{\sqrt{2}}{2}$|$\frac{\sqrt{2}}{2}$|$1$|
+|$60^\circ$|$\frac{\pi}{3}$|$\frac{\sqrt{3}}{2}$|$\frac{1}{2}$|$\sqrt{3}$|
+|$75^\circ$|$\frac{5\pi}{12}$|$\frac{\sqrt{6} + \sqrt{2}}{4}$|$\frac{\sqrt{6} - \sqrt{2}}{4}$|$2 + \sqrt{3}$|
+|$90^\circ$|$\frac{\pi}{2}$|$1$|$0$|$\rm{无}$|
+|$120^\circ$|$\frac{2\pi}{3}$|$\frac{\sqrt{3}}{2}$|$-\frac{1}{2}$|$-\sqrt{3}$|
+|$135^\circ$|$\frac{3\pi}{4}$|$\frac{\sqrt{2}}{2}$|$-\frac{\sqrt{2}}{2}$|$-1$|
+|$150^\circ$|$\frac{5\pi}{6}$|$\frac{1}{2}$|$-\frac{\sqrt{3}}{2}$|$\frac{\sqrt{3}}{3}$|
+|$180^\circ$|$\pi$|$0$|$-1$|$0$|
+|$270^\circ$|$\frac{3\pi}{2}$|$-1$|$0$|$\rm{无}$|
+|$360^\circ$|$2\pi$|$0$|$1$|$0$|
