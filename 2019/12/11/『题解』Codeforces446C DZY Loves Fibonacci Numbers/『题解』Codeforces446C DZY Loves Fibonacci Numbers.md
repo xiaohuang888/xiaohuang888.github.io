@@ -114,7 +114,7 @@ f(6) = f(4) + f(5) = x × F(3) + y × F(4)
 
 把上述规律推广到代数式：
 
-$$\begin{align} f_n & = f_{n - 1} + f_{n - 2} \\\ & = x \times f_{n - 2} + y \times f_{n - 3} + x \times f_{n - 3} + y \times f_{n - 4} \\\ & = x \times (f_{n - 2} + f_{n - 3}) + y \times (f_{n - 3} + f_{n - 4}) \\\ & = x \times f_{n - 1} + y \times f_{n - 2} \end{align}$$
+$$\begin{aligned} f_n & = f_{n - 1} + f_{n - 2} \\\ & = x \times f_{n - 2} + y \times f_{n - 3} + x \times f_{n - 3} + y \times f_{n - 4} \\\ & = x \times (f_{n - 2} + f_{n - 3}) + y \times (f_{n - 3} + f_{n - 4}) \\\ & = x \times f_{n - 1} + y \times f_{n - 2} \end{aligned}$$
 
 证毕。
 

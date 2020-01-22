@@ -96,6 +96,21 @@ daovoice('init', {
 });
 daovoice('update');
   </script>
+  
+  <!-- Katex Load-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js" integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous"></script>
+<script>
+    renderMathInElement(document.body,
+   {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          }
+  );
+</script>
 <link rel="alternate" href="/atom.xml" title="XiaoHuang's Space" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
@@ -890,7 +905,7 @@ daovoice('update');
         
         <br>
           <span>Last Modified: </span>
-          <span>Dec 13, 2019</span>
+          <span>Jan 22, 2020</span>
         
       </div>
       
@@ -979,7 +994,7 @@ daovoice('update');
         
         
           <section class="mdui-card-media">
-            <img src="/images/random/44.png"/>
+            <img src="/images/random/6.png"/>
           </section>
         
         <section class="mdui-typo theme-post__card__content">
@@ -995,7 +1010,7 @@ daovoice('update');
 <h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>输入仅一行，为一个整数$N$。</p>
 <h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>输出答案模$(10 ^ 9 + 7)$的值。</p>
 <h3 id="Sample-Input1"><a href="#Sample-Input1" class="headerlink" title="Sample Input1"></a>Sample Input1</h3><pre><code>3</code></pre><h3 id="Sample-Output1"><a href="#Sample-Output1" class="headerlink" title="Sample Output1"></a>Sample Output1</h3><pre><code>5</code></pre><h3 id="Sample-Input2"><a href="#Sample-Input2" class="headerlink" title="Sample Input2"></a>Sample Input2</h3><pre><code>6</code></pre><h3 id="Sample-Output2"><a href="#Sample-Output2" class="headerlink" title="Sample Output2"></a>Sample Output2</h3><pre><code>129</code></pre><h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>根据题意，我们要取两组数，使$A$组的最大值小于$B$组的最小值，那么我们在一个有序的数列（不妨设为$1, 2, 3, \cdots , n$）里，我们可以取一个数$p$，表示分界线（不妨把它放在$A$组），$A$组的取数范围就是$p$以及$p$左边的所有数，$B$组的取数范围就是$p$右边的所有数，因此当$p = i$时$A$组取数的方案总数就是$2 ^ {i - 1}$（前面的每个数要么取，要么不取），而$B$组取数的方案数就是$2 ^ {n - i} - 1$（为什么要减$1$，因为不允许$B$队没有人参战，而我们把$p$归入$A$队，因此$A$组不会空）。我们用代数的形式表示出来：</p>
-<p>$$\begin{align} \text{答案} &amp; = \sum^{n}_{i = 1}{2 ^ {i - 1} \times (2 ^ {n - i} - 1)} \\ &amp; = \sum^{n}_{i = 1}{2 ^ {n - 1} - 2^{i - 1}} \\ &amp; = n \times 2 ^ {n - 1} - \sum^{n}_{i = 1}{2 ^ {i - 1}} \\ &amp; = n \times 2 ^ {n - 1} -\sum^{n - 1}_{i = 0}{2 ^ i} \\ &amp; = n \times 2 ^ {n - 1} - (2 ^ 0 + \sum^{n - 1}_{i = 1}{2 ^ i}) \\ &amp; = n \times 2 ^ {n - 1} - (1 + 2 ^ n - 2) \\ &amp; = n \times 2 ^ {n - 1} - 2^ n + 1 \\ &amp; = n \times 2 ^ {n - 1} - 2 \times 2 ^ {n - 1} + 1 \\ &amp; = (n - 2) \times 2 ^ {n - 1} + 1 \end{align}​$$</p>
+<p>$$\begin{aligned} \text{答案} &amp; = \sum^{n}_{i = 1}{2 ^ {i - 1} \times (2 ^ {n - i} - 1)} \\ &amp; = \sum^{n}_{i = 1}{2 ^ {n - 1} - 2^{i - 1}} \\ &amp; = n \times 2 ^ {n - 1} - \sum^{n}_{i = 1}{2 ^ {i - 1}} \\ &amp; = n \times 2 ^ {n - 1} -\sum^{n - 1}_{i = 0}{2 ^ i} \\ &amp; = n \times 2 ^ {n - 1} - (2 ^ 0 + \sum^{n - 1}_{i = 1}{2 ^ i}) \\ &amp; = n \times 2 ^ {n - 1} - (1 + 2 ^ n - 2) \\ &amp; = n \times 2 ^ {n - 1} - 2^ n + 1 \\ &amp; = n \times 2 ^ {n - 1} - 2 \times 2 ^ {n - 1} + 1 \\ &amp; = (n - 2) \times 2 ^ {n - 1} + 1 \end{aligned}​$$</p>
 <p>于是我们就可以直接通过快速幂直接求出答案了。</p>
 <h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" mdui-tooltip="{content: 'cpp'}"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span>
@@ -1273,7 +1288,7 @@ new Valine({
 
 <script type="text/javascript">
   (function() {
-    var postLastModifiedDate = 1576240259010
+    var postLastModifiedDate = 1579703292464
     var today = (new Date()).getTime()
     var difference = Math.floor((today - postLastModifiedDate)/(24*60*60*1000))
     if (difference >= 100) {
@@ -1310,6 +1325,7 @@ new Valine({
   }
 </script>
 
+<!--
 
     <!-- Katex Load-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
@@ -1326,7 +1342,7 @@ new Valine({
   );
 </script>
   
-
+-->
 
       </div>
     </div>
@@ -1383,9 +1399,10 @@ new Valine({
 
 
 
+  <!--
 <script type="text/javascript">
     mdui.alert("本站的mathjax数学公式如无法显示，请手动刷新", "提醒", function(){},{history:false})
-  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-  
+  </script>
+  --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </body>
 </html>
