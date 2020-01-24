@@ -37,6 +37,8 @@ $$\frac{AX}{XB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$
 
 若有三点$X$、$Y$、$Z$分别在边三角形的三边$AB$、$BC$、$CA$或边的延长线上，并且满足$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$，那么$X$、$Y$、$Z$三点共线。
 
+**（前提：三个点有偶数个点在三角形边上。）**
+
 **证明：**
 
 ![](https://s2.ax1x.com/2020/01/23/1Vp0vF.png)

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2020-01-23T08:20:02.327Z</updated>
+  <updated>2020-01-24T02:39:08.059Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://xiaohuang888.github.io/2020/01/20/%E3%80%8C%E6%95%B0%E5%AD%A6%E3%80%8DMenelaus%E5%AE%9A%E7%90%86%E4%B8%8ECeva%E5%AE%9A%E7%90%86/"/>
     <id>https://xiaohuang888.github.io/2020/01/20/%E3%80%8C%E6%95%B0%E5%AD%A6%E3%80%8DMenelaus%E5%AE%9A%E7%90%86%E4%B8%8ECeva%E5%AE%9A%E7%90%86/</id>
     <published>2020-01-20T14:29:54.269Z</published>
-    <updated>2020-01-23T08:20:02.327Z</updated>
+    <updated>2020-01-24T02:39:08.059Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><h4 id="rm-Menelaus-定理"><a href="#rm-Menelaus-定理" class="headerlink" title="$\rm Menelaus$定理"></a>$\rm Menelaus$定理</h4><p><img src="https://s2.ax1x.com/2020/01/21/1F6YfH.png" alt=""></p><p>已知三角形$\triangle ABC$被一直线所截，交三条边或三条边的延长线与点$X, Y, Z$点，则有</p><p>$$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p>（注：上图为一种情况，还有一种为“直线不经过三角形的任何一边，即与三角形的交点数为$0$”）</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2020/01/23/1Ezerd.png" alt=""></p><p>过点$C$作$CP // DF$交$AB$于$P$，则</p><p>$$\frac{BZ}{ZC}=\frac{BX}{XP}\tag{1}$$</p><p>$$\frac{CY}{YA}=\frac{PX}{XA}\tag{2}$$</p><p>$$(1) \times (2) \rm{得：} \frac{BZ}{ZC}\cdot \frac{CY}{YA}=\frac{BX}{XP}\cdot \frac{PX}{XA}$$</p><p>$$\frac{AX}{XB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$</p><h4 id="rm-Menelaus-逆定理"><a href="#rm-Menelaus-逆定理" class="headerlink" title="$\rm Menelaus$逆定理"></a>$\rm Menelaus$逆定理</h4><p>若有三点$X$、$Y$、$Z$分别在边三角形的三边$AB$、$BC$、$CA$或边的延长线上，并且满足$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$，那么$X$、$Y$、$Z$三点共线。</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2020/01/23/1Vp0vF.png" alt=""></p><p>假设$X$、$Y$、$Z$三点不共线，直线$ZY$与$AB$交于点$P$。</p><p>根据$\rm Menelaus$定理，</p><p>$$\frac{AP}{PB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$</p><p>$$\rm{已知}\frac{AX}{XB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$</p><p>$$\therefore \frac{AP}{PB}=\frac{AX}{XB}$$</p><p>$$\therefore P \rm{与} X \rm{重合，即}X\rm{、}Y\rm{、}Z\rm{三点共线}$$</p><h4 id="rm-Ceva-定理"><a href="#rm-Ceva-定理" class="headerlink" title="$\rm Ceva$定理"></a>$\rm Ceva$定理</h4><p><img src="https://s2.ax1x.com/2020/01/22/1ESDV1.png" alt=""></p><p>在三角形$\triangle ABC$任取一点$O$，延长$AO$、$BO$、$CO$分别交对边于$x$、$y$、$z$，则有</p><p>$$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p><strong>证明：</strong></p><p>$\therefore \triangle ADC$被直线$BE$所截，</p><p>根据$\rm Menelaus$定理，</p><p>$$\therefore \frac{CB}{BZ}\cdot\frac{ZO}{OA}\cdot\frac{AY}{YC}=1\tag{1}$$</p><p>$\therefore \triangle ABD$被直线$CX$所截，</p><p>$$\therefore \frac{BC}{CZ}\cdot\frac{ZO}{OA}\cdot\frac{AX}{XB}=1\tag{2}$$</p><p>$$\frac{(2)}{(1)} \rm{得：}\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><h4 id="rm-Ceva-逆定理"><a href="#rm-Ceva-逆定理" class="headerlink" title="$\rm Ceva$逆定理"></a>$\rm Ceva$逆定理</h4><p>若有三点$X$、$Y$、$Z$分别在边三角形的三边$AB$、$BC$、$CA$或边的延长线上，并且满足$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$，那么$CX$、$BY$、$AZ$三线共点。</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2020/01/23/1VCXng.png" alt=""></p><p>延长$CO$交$AB$于点$P$，则有</p><p>$$\frac{AP}{PB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p>$$\rm{已知}\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p>$$\therefore \frac{AP}{PB}=\frac{AX}{XB}$$</p><p>$$\therefore P \rm{与} X \rm{重合，即}CX\rm{、}BY\rm{、}AZ\rm{三线共点}$$</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><h4 id="rm-Menelaus-定理"><a href="#rm-Menelaus-定理" class="headerlink" title="$\rm Menelaus$定理"></a>$\rm Menelaus$定理</h4><p><img src="https://s2.ax1x.com/2020/01/21/1F6YfH.png" alt=""></p><p>已知三角形$\triangle ABC$被一直线所截，交三条边或三条边的延长线与点$X, Y, Z$点，则有</p><p>$$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p>（注：上图为一种情况，还有一种为“直线不经过三角形的任何一边，即与三角形的交点数为$0$”）</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2020/01/23/1Ezerd.png" alt=""></p><p>过点$C$作$CP // DF$交$AB$于$P$，则</p><p>$$\frac{BZ}{ZC}=\frac{BX}{XP}\tag{1}$$</p><p>$$\frac{CY}{YA}=\frac{PX}{XA}\tag{2}$$</p><p>$$(1) \times (2) \rm{得：} \frac{BZ}{ZC}\cdot \frac{CY}{YA}=\frac{BX}{XP}\cdot \frac{PX}{XA}$$</p><p>$$\frac{AX}{XB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$</p><h4 id="rm-Menelaus-逆定理"><a href="#rm-Menelaus-逆定理" class="headerlink" title="$\rm Menelaus$逆定理"></a>$\rm Menelaus$逆定理</h4><p>若有三点$X$、$Y$、$Z$分别在边三角形的三边$AB$、$BC$、$CA$或边的延长线上，并且满足$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$，那么$X$、$Y$、$Z$三点共线。</p><p><strong>（前提：三个点有偶数个点在三角形边上。）</strong></p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2020/01/23/1Vp0vF.png" alt=""></p><p>假设$X$、$Y$、$Z$三点不共线，直线$ZY$与$AB$交于点$P$。</p><p>根据$\rm Menelaus$定理，</p><p>$$\frac{AP}{PB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$</p><p>$$\rm{已知}\frac{AX}{XB}\cdot\frac{BZ}{ZC}\cdot\frac{CY}{YA}=1$$</p><p>$$\therefore \frac{AP}{PB}=\frac{AX}{XB}$$</p><p>$$\therefore P \rm{与} X \rm{重合，即}X\rm{、}Y\rm{、}Z\rm{三点共线}$$</p><h4 id="rm-Ceva-定理"><a href="#rm-Ceva-定理" class="headerlink" title="$\rm Ceva$定理"></a>$\rm Ceva$定理</h4><p><img src="https://s2.ax1x.com/2020/01/22/1ESDV1.png" alt=""></p><p>在三角形$\triangle ABC$任取一点$O$，延长$AO$、$BO$、$CO$分别交对边于$x$、$y$、$z$，则有</p><p>$$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p><strong>证明：</strong></p><p>$\therefore \triangle ADC$被直线$BE$所截，</p><p>根据$\rm Menelaus$定理，</p><p>$$\therefore \frac{CB}{BZ}\cdot\frac{ZO}{OA}\cdot\frac{AY}{YC}=1\tag{1}$$</p><p>$\therefore \triangle ABD$被直线$CX$所截，</p><p>$$\therefore \frac{BC}{CZ}\cdot\frac{ZO}{OA}\cdot\frac{AX}{XB}=1\tag{2}$$</p><p>$$\frac{(2)}{(1)} \rm{得：}\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><h4 id="rm-Ceva-逆定理"><a href="#rm-Ceva-逆定理" class="headerlink" title="$\rm Ceva$逆定理"></a>$\rm Ceva$逆定理</h4><p>若有三点$X$、$Y$、$Z$分别在边三角形的三边$AB$、$BC$、$CA$或边的延长线上，并且满足$\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$，那么$CX$、$BY$、$AZ$三线共点。</p><p><strong>证明：</strong></p><p><img src="https://s2.ax1x.com/2020/01/23/1VCXng.png" alt=""></p><p>延长$CO$交$AB$于点$P$，则有</p><p>$$\frac{AP}{PB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p>$$\rm{已知}\frac{AX}{XB} \cdot \frac{BZ}{ZC} \cdot \frac{CY}{YA}=1$$</p><p>$$\therefore \frac{AP}{PB}=\frac{AX}{XB}$$</p><p>$$\therefore P \rm{与} X \rm{重合，即}CX\rm{、}BY\rm{、}AZ\rm{三线共点}$$</p>]]></content>
     
     <summary type="html">
     
@@ -288,9 +288,9 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="数论，数学" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E8%AE%BA%EF%BC%8C%E6%95%B0%E5%AD%A6/"/>
-    
       <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
+    
+      <category term="数论，数学" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E8%AE%BA%EF%BC%8C%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -356,9 +356,9 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
-    
       <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
   </entry>
   
@@ -388,11 +388,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="矩阵" scheme="https://xiaohuang888.github.io/tags/%E7%9F%A9%E9%98%B5/"/>
     
       <category term="快速幂" scheme="https://xiaohuang888.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
-    
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -424,11 +424,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="分块" scheme="https://xiaohuang888.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
   </entry>
   
@@ -634,11 +634,11 @@
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
-      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
-    
       <category term="树链剖分" scheme="https://xiaohuang888.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
       <category term="ZJOI" scheme="https://xiaohuang888.github.io/tags/ZJOI/"/>
+    
+      <category term="BZOJ" scheme="https://xiaohuang888.github.io/tags/BZOJ/"/>
     
   </entry>
   
