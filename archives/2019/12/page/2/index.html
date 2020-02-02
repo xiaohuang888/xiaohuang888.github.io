@@ -87,6 +87,35 @@ daovoice('init', {
 daovoice('update');
   </script>
 -->
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('uwz9wgadzvw2');
+</script>
+<!-- End of Async Drift Code -->
+
   <!-- Katex Load-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css" integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js" integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous"></script>
@@ -329,20 +358,14 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
               </a>
             
-              <a href="/categories/%E5%B7%A5%E5%85%B7/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                工具
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
               <a href="/categories/%E6%A8%A1%E6%9D%BF/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 模板
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
-              <a href="/categories/%E6%96%B0%E5%B9%B4/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                新年
+              <a href="/categories/%E5%B7%A5%E5%85%B7/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                工具
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
@@ -395,6 +418,18 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">55</span>
               </a>
             
+              <a href="/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                数学，数论
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
+              </a>
+            
+              <a href="/tags/Codeforces/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                Codeforces
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">19</span>
+              </a>
+            
               <a href="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 线段树
                 <div style="flex-grow: 1;"></div>
@@ -405,36 +440,6 @@ daovoice('update');
                 分块
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">7</span>
-              </a>
-            
-              <a href="/tags/Codeforces/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                Codeforces
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">19</span>
-              </a>
-            
-              <a href="/tags/%E7%9F%A9%E9%98%B5/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                矩阵
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                快速幂
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
-              </a>
-            
-              <a href="/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                数学，数论
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
-              </a>
-            
-              <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                动态规划
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">4</span>
               </a>
             
               <a href="/tags/%E4%BA%8C%E5%88%86/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
@@ -473,10 +478,10 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">11</span>
               </a>
             
-              <a href="/tags/%E5%B7%AE%E5%88%86/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                差分
+              <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                动态规划
                 <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">4</span>
               </a>
             
               <a href="/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
@@ -503,34 +508,28 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
               </a>
             
+              <a href="/tags/%E7%9F%A9%E9%98%B5/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                矩阵
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
+              <a href="/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                快速幂
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
+              </a>
+            
+              <a href="/tags/%E5%B7%AE%E5%88%86/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                差分
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
+              </a>
+            
               <a href="/tags/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 记忆化搜索
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
-              </a>
-            
-              <a href="/tags/%E6%89%BE%E8%A7%84%E5%BE%8B/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                找规律
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/Nowcoder/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                Nowcoder
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/%E6%90%9C%E7%B4%A2/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                搜索
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
-              </a>
-            
-              <a href="/tags/AtCoder/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                AtCoder
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
               <a href="/tags/%E6%95%B0%E5%AD%A6/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
@@ -551,6 +550,54 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
+              <a href="/tags/%E6%90%9C%E7%B4%A2/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                搜索
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
+              </a>
+            
+              <a href="/tags/AtCoder/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                AtCoder
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
+              <a href="/tags/%E6%89%BE%E8%A7%84%E5%BE%8B/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                找规律
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
+              <a href="/tags/Nowcoder/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                Nowcoder
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
+              <a href="/tags/%E6%A8%A1%E6%9D%BF/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                模板
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">3</span>
+              </a>
+            
+              <a href="/tags/%E5%8D%A1%E5%B8%B8/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                卡常
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
+              <a href="/tags/%E6%95%B0%E8%AE%BA%EF%BC%8C%E6%95%B0%E5%AD%A6/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                数论，数学
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">12</span>
+              </a>
+            
+              <a href="/tags/BZOJ/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                BZOJ
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">4</span>
+              </a>
+            
               <a href="/tags/%E6%9E%9A%E4%B8%BE/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 枚举
                 <div style="flex-grow: 1;"></div>
@@ -567,18 +614,6 @@ daovoice('update');
                 TJOI
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/BZOJ/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                BZOJ
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">4</span>
-              </a>
-            
-              <a href="/tags/%E6%95%B0%E8%AE%BA%EF%BC%8C%E6%95%B0%E5%AD%A6/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                数论，数学
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">12</span>
               </a>
             
               <a href="/tags/%E5%B7%A5%E5%85%B7/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
@@ -599,14 +634,14 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
-              <a href="/tags/%E6%A8%A1%E6%9D%BF/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                模板
+              <a href="/tags/LCIS/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                LCIS
                 <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">3</span>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
-              <a href="/tags/%E5%8D%A1%E5%B8%B8/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                卡常
+              <a href="/tags/DP/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                DP
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
@@ -623,16 +658,16 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
-              <a href="/tags/LCIS/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                LCIS
+              <a href="/tags/AHOI/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                AHOI
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
-              <a href="/tags/DP/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                DP
+              <a href="/tags/%E6%A8%A1%E6%8B%9F/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                模拟
                 <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">4</span>
               </a>
             
               <a href="/tags/%E5%80%8D%E5%A2%9E/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
@@ -647,18 +682,6 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
-              <a href="/tags/AHOI/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                AHOI
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/%E6%A8%A1%E6%8B%9F/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                模拟
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">4</span>
-              </a>
-            
               <a href="/tags/%E8%8E%AB%E9%98%9F/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 莫队
                 <div style="flex-grow: 1;"></div>
@@ -671,6 +694,12 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
             
+              <a href="/tags/SphereOJ/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                SphereOJ
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
               <a href="/tags/%E8%B4%AA%E5%BF%83/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 贪心
                 <div style="flex-grow: 1;"></div>
@@ -679,12 +708,6 @@ daovoice('update');
             
               <a href="/tags/%E6%9E%84%E9%80%A0/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 构造
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/SphereOJ/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                SphereOJ
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
@@ -713,6 +736,12 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
               </a>
             
+              <a href="/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
+                树状数组
+                <div style="flex-grow: 1;"></div>
+                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
+              </a>
+            
               <a href="/tags/%E8%83%8C%E5%8C%85/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 背包
                 <div style="flex-grow: 1;"></div>
@@ -725,20 +754,8 @@ daovoice('update');
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">2</span>
               </a>
             
-              <a href="/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                树状数组
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
               <a href="/tags/%E7%BD%91%E7%BB%9C%E6%B5%8124%E9%A2%98/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
                 网络流24题
-                <div style="flex-grow: 1;"></div>
-                <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
-              </a>
-            
-              <a href="/tags/%E5%80%92%E8%AE%A1%E6%97%B6/" class="mdui-list-item mdui-ripple mdui-ripple-white" style="display: flex">
-                倒计时
                 <div style="flex-grow: 1;"></div>
                 <span class="theme-menu-badge new mdui-color-theme-accent" data-badge-caption="">1</span>
               </a>
@@ -849,7 +866,7 @@ daovoice('update');
     
       <br />
       <span>
-        Last Updated: Jan 26, 2020
+        Last Updated: Feb 02, 2020
       </span>
     
     
@@ -876,10 +893,10 @@ daovoice('update');
         
   <div class="theme-archive">
     
-<div id="side-content" class="mdui-color-red theme-archive__side-content">
+<div id="side-content" class="mdui-color-light-blue theme-archive__side-content">
   <div class="mdui-grid-tile" style="overflow: visible;margin-bottom: 0;">
     <div class="theme-archive__side-content__bg">
-      <img src="/images/random/16.png" />
+      <img src="/images/random/5.png" />
     </div>
   </div>
   <div class="theme-archive__side-content__content">
@@ -906,13 +923,13 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/38.png)">
-        <img src="/images/random/38.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/14.png)">
+        <img src="/images/random/14.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
-            <a href="/2019/12/11/%E3%80%8CLuogu%201349%E3%80%8D%E5%B9%BF%E4%B9%89%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
+            <a href="/2019/12/11/%E3%80%8CCF52C%E3%80%8DCircular%20RMQ/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
               
-              「Luogu 1349」广义斐波那契数列
+              「CF52C」Circular RMQ
             </a>
           </div>
         </div>
@@ -951,96 +968,6 @@ daovoice('update');
                   </li>
                 
                   <li class="mdui-menu-item">
-                    <a href="/tags/C/" class="mdui-ripple">
-                      <span>C++</span>
-                    </a>
-                  </li>
-                
-                  <li class="mdui-menu-item">
-                    <a href="/tags/%E7%9F%A9%E9%98%B5/" class="mdui-ripple">
-                      <span>矩阵</span>
-                    </a>
-                  </li>
-                
-                  <li class="mdui-menu-item">
-                    <a href="/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/" class="mdui-ripple">
-                      <span>快速幂</span>
-                    </a>
-                  </li>
-                
-                  <li class="mdui-menu-item">
-                    <a href="/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/" class="mdui-ripple">
-                      <span>数学，数论</span>
-                    </a>
-                  </li>
-                
-              </ul>
-            </div>
-          
-        
-        <div class="theme-spacer"></div>
-        <div class="mdui-valign">
-          <div>
-            Dec 11, 2019
-          </div>
-        </div>
-      </section>
-    </article>
-  </div>
-  
-
-
-        
-            
-
-
-  <div class="theme-posts__post">
-    <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/11.png)">
-        <img src="/images/random/11.png" class="theme-posts__post__media__image" />
-        <div class="mdui-card-media-covered theme-posts__post__media-covered">
-          <div class="mdui-card-primary mdui-typo">
-            <a href="/2019/12/11/%E3%80%8CCF52C%E3%80%8DCircular%20RMQ/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
-              
-              「CF52C」Circular RMQ
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="mdui-card-content">
-        Porta...
-      </section>
-      <div class="mdui-divider" style="margin: 0 16px;"></div>
-      <section class="theme-posts__post__footer">
-        
-          
-            
-              <a href="/categories/%E9%A2%98%E8%A7%A3/" class="theme-link--no-style">
-                <div class="mdui-chip theme-posts__post__footer__categories">
-                  <span class="mdui-chip-icon">
-                    <i class="mdui-icon material-icons mdui-text-center">&#xe86e;</i>
-                  </span>
-                  <span class="mdui-chip-title">题解</span>
-                </div>
-              </a>
-            
-          
-        
-        
-          
-            <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-1'}">
-                <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
-              </button>
-              <ul class="mdui-menu" id="post-tags-2-1">
-                
-                  <li class="mdui-menu-item">
-                    <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
-                      <span>题解</span>
-                    </a>
-                  </li>
-                
-                  <li class="mdui-menu-item">
                     <a href="/tags/%E6%B4%9B%E8%B0%B7/" class="mdui-ripple">
                       <span>洛谷</span>
                     </a>
@@ -1049,6 +976,12 @@ daovoice('update');
                   <li class="mdui-menu-item">
                     <a href="/tags/C/" class="mdui-ripple">
                       <span>C++</span>
+                    </a>
+                  </li>
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/Codeforces/" class="mdui-ripple">
+                      <span>Codeforces</span>
                     </a>
                   </li>
                 
@@ -1064,12 +997,6 @@ daovoice('update');
                     </a>
                   </li>
                 
-                  <li class="mdui-menu-item">
-                    <a href="/tags/Codeforces/" class="mdui-ripple">
-                      <span>Codeforces</span>
-                    </a>
-                  </li>
-                
               </ul>
             </div>
           
@@ -1092,8 +1019,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/3.png)">
-        <img src="/images/random/3.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/43.png)">
+        <img src="/images/random/43.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8C%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B53A%E3%80%8D%E8%B6%85%E8%B6%8A%E5%AD%A6%E5%A7%90%E7%88%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1125,10 +1052,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-2'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-1'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-2">
+              <ul class="mdui-menu" id="post-tags-2-1">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/C/" class="mdui-ripple">
@@ -1176,8 +1103,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/14.png)">
-        <img src="/images/random/14.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/8.png)">
+        <img src="/images/random/8.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8CLuogu%201412%E3%80%8D%E7%BB%8F%E8%90%A5%E4%B8%8E%E5%BC%80%E5%8F%91/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1209,10 +1136,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-3'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-2'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-3">
+              <ul class="mdui-menu" id="post-tags-2-2">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1260,8 +1187,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/43.png)">
-        <img src="/images/random/43.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/40.png)">
+        <img src="/images/random/40.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8F%E6%B4%9B%E8%B0%B7P3376%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E7%BD%91%E7%BB%9C%E6%9C%80%E5%A4%A7%E6%B5%81/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1293,10 +1220,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-4'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-3'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-4">
+              <ul class="mdui-menu" id="post-tags-2-3">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1350,8 +1277,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/21.png)">
-        <img src="/images/random/21.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/4.png)">
+        <img src="/images/random/4.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8F%E6%B4%9B%E8%B0%B7P4016%20%E8%B4%9F%E8%BD%BD%E5%B9%B3%E8%A1%A1%E9%97%AE%E9%A2%98/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1383,10 +1310,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-5'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-4'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-5">
+              <ul class="mdui-menu" id="post-tags-2-4">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1452,8 +1379,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/29.png)">
-        <img src="/images/random/29.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/6.png)">
+        <img src="/images/random/6.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FBZOJ1798%20%5BAHOI2009%5D%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1485,10 +1412,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-6'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-5'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-6">
+              <ul class="mdui-menu" id="post-tags-2-5">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1554,8 +1481,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/37.png)">
-        <img src="/images/random/37.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/18.png)">
+        <img src="/images/random/18.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FBZOJ1036%20%5BZJOI2008%5D%E6%A0%91%E7%9A%84%E7%BB%9F%E8%AE%A1/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1587,10 +1514,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-7'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-6'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-7">
+              <ul class="mdui-menu" id="post-tags-2-6">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1650,8 +1577,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/21.png)">
-        <img src="/images/random/21.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/26.png)">
+        <img src="/images/random/26.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8F%E6%B4%9B%E8%B0%B7P3384%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1683,10 +1610,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-8'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-7'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-8">
+              <ul class="mdui-menu" id="post-tags-2-7">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1740,8 +1667,8 @@ daovoice('update');
 
   <div class="theme-posts__post">
     <article class="mdui-card mdui-hoverable">
-      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/38.png)">
-        <img src="/images/random/38.png" class="theme-posts__post__media__image" />
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/7.png)">
+        <img src="/images/random/7.png" class="theme-posts__post__media__image" />
         <div class="mdui-card-media-covered theme-posts__post__media-covered">
           <div class="mdui-card-primary mdui-typo">
             <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FUVa11324%20The%20Largest%20Clique/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
@@ -1773,10 +1700,10 @@ daovoice('update');
         
           
             <div class="theme-posts__post__footer__tags mdui-valign">
-              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-9'}">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-8'}">
                 <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
               </button>
-              <ul class="mdui-menu" id="post-tags-2-9">
+              <ul class="mdui-menu" id="post-tags-2-8">
                 
                   <li class="mdui-menu-item">
                     <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
@@ -1831,6 +1758,102 @@ daovoice('update');
 
 
         
+            
+
+
+  <div class="theme-posts__post">
+    <article class="mdui-card mdui-hoverable">
+      <section class="mdui-card-media theme-posts__post__media" style="background-image: url(/images/random/37.png)">
+        <img src="/images/random/37.png" class="theme-posts__post__media__image" />
+        <div class="mdui-card-media-covered theme-posts__post__media-covered">
+          <div class="mdui-card-primary mdui-typo">
+            <a href="/2019/12/11/%E3%80%8E%E9%A2%98%E8%A7%A3%E3%80%8FCodeforces10D%20LCIS/" target="_self" class="mdui-card-primary-title mdui-text-truncate">
+              
+              『题解』Codeforces10D LCIS
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="mdui-card-content">
+        Port...
+      </section>
+      <div class="mdui-divider" style="margin: 0 16px;"></div>
+      <section class="theme-posts__post__footer">
+        
+          
+            
+              <a href="/categories/%E9%A2%98%E8%A7%A3/" class="theme-link--no-style">
+                <div class="mdui-chip theme-posts__post__footer__categories">
+                  <span class="mdui-chip-icon">
+                    <i class="mdui-icon material-icons mdui-text-center">&#xe86e;</i>
+                  </span>
+                  <span class="mdui-chip-title">题解</span>
+                </div>
+              </a>
+            
+          
+        
+        
+          
+            <div class="theme-posts__post__footer__tags mdui-valign">
+              <button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-ripple" mdui-menu="{target: '#post-tags-2-9'}">
+                <i class="mdui-list-item-icon mdui-icon fa fa-tags mdui-text-center"></i>
+              </button>
+              <ul class="mdui-menu" id="post-tags-2-9">
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/%E9%A2%98%E8%A7%A3/" class="mdui-ripple">
+                      <span>题解</span>
+                    </a>
+                  </li>
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/%E6%B4%9B%E8%B0%B7/" class="mdui-ripple">
+                      <span>洛谷</span>
+                    </a>
+                  </li>
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/C/" class="mdui-ripple">
+                      <span>C++</span>
+                    </a>
+                  </li>
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/Codeforces/" class="mdui-ripple">
+                      <span>Codeforces</span>
+                    </a>
+                  </li>
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/LCIS/" class="mdui-ripple">
+                      <span>LCIS</span>
+                    </a>
+                  </li>
+                
+                  <li class="mdui-menu-item">
+                    <a href="/tags/DP/" class="mdui-ripple">
+                      <span>DP</span>
+                    </a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+        
+        <div class="theme-spacer"></div>
+        <div class="mdui-valign">
+          <div>
+            Dec 11, 2019
+          </div>
+        </div>
+      </section>
+    </article>
+  </div>
+  
+
+
+        
         
     </div>
     <button id="index-fab" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent mdui-fab-hide" onclick="smoothScroll.animateScroll( 0 );">
@@ -1865,7 +1888,7 @@ daovoice('update');
   })();
 
   (function() {
-    var pageTotal = 7
+    var pageTotal = 6
     var pageNext = 2
     themeRuntime.temp = {
       index: 1
