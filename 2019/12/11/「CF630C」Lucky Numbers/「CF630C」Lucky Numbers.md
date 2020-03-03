@@ -14,7 +14,7 @@ mathjax: true
 
 Portal1: [Codeforces](http://codeforces.com/problemset/problem/630/C)
 
-Portal2: [Luogu](http://codeforces.com/problemset/problem/630/C)
+Portal2: [Luogu](https://www.luogu.com.cn/problem/CF630C)
 
 ### Description
 
