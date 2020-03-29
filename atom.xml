@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaohuang888.github.io/"/>
-  <updated>2020-03-25T06:01:36.068Z</updated>
+  <updated>2020-03-29T12:02:32.696Z</updated>
   <id>https://xiaohuang888.github.io/</id>
   
   <author>
@@ -17,13 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>「攻略」NazoGame</title>
+    <link href="https://xiaohuang888.github.io/2020/03/29/%E3%80%8C%E6%94%BB%E7%95%A5%E3%80%8DNazoGame/"/>
+    <id>https://xiaohuang888.github.io/2020/03/29/%E3%80%8C%E6%94%BB%E7%95%A5%E3%80%8DNazoGame/</id>
+    <published>2020-03-29T11:30:35.126Z</published>
+    <updated>2020-03-29T12:02:32.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>网站：<a href="http://nazo.one-story.cn/" target="_blank" rel="noopener">http://nazo.one-story.cn/</a></p><h3 id="Level-1"><a href="#Level-1" class="headerlink" title="Level 1"></a>Level 1</h3><p>题面：</p><pre><code>请输入答案</code></pre><p>叫你输入：答案。</p><p><code>key:答案</code></p><h3 id="Level-2"><a href="#Level-2" class="headerlink" title="Level 2"></a>Level 2</h3><p>题面：</p><pre><code>请输 入答案</code></pre><p>叫你输入：入答案。</p><p><code>key:入答案</code></p><h3 id="Level-3"><a href="#Level-3" class="headerlink" title="Level 3"></a>Level 3</h3><p>题面：</p><pre><code>请进入第四关</code></pre><p>改网址：把$3$换成$4$。</p><p><code>key:nazo-4</code></p><h3 id="Level-4"><a href="#Level-4" class="headerlink" title="Level 4"></a>Level 4</h3><p>题面：</p><pre><code>请进入第五关</code></pre><p>$\rm F12$审查元素：$\rm Console$里有答案：<code>answer: level-five</code>。</p><p><code>key:level-five</code></p><h3 id="Level-5"><a href="#Level-5" class="headerlink" title="Level 5"></a>Level 5</h3><p>题面：</p><pre><code>NaN == NaN</code></pre><p>$\rm Java$语言里<code>NaN != NaN</code>。</p><p><code>key:false</code></p><h3 id="Level-6"><a href="#Level-6" class="headerlink" title="Level 6"></a>Level 6</h3><p>题面：</p><pre><code>7414569638527895123852</code></pre><p>看你的键盘数字框，按照他每一行写的比划一边，就是字母的形状。</p><p><code>key:H1Z1</code></p><h3 id="Level-7"><a href="#Level-7" class="headerlink" title="Level 7"></a>Level 7</h3><p>未完待续。。。。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;网站：&lt;a href=&quot;http://nazo.one-story.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://nazo.one-story.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Level-1&quot;&gt;&lt;a href=&quot;#Level-
+      
+    
+    </summary>
+    
+    
+      <category term="攻略" scheme="https://xiaohuang888.github.io/categories/%E6%94%BB%E7%95%A5/"/>
+    
+    
+      <category term="NazoGame" scheme="https://xiaohuang888.github.io/tags/NazoGame/"/>
+    
+      <category term="攻略" scheme="https://xiaohuang888.github.io/tags/%E6%94%BB%E7%95%A5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>「数学」二次函数中项系数大小与图像的关系</title>
     <link href="https://xiaohuang888.github.io/2020/03/23/%E3%80%8C%E6%95%B0%E5%AD%A6%E3%80%8D%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%AD%E7%B3%BB%E6%95%B0%E5%A4%A7%E5%B0%8F%E4%B8%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%85%B3%E7%B3%BB/"/>
     <id>https://xiaohuang888.github.io/2020/03/23/%E3%80%8C%E6%95%B0%E5%AD%A6%E3%80%8D%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%AD%E7%B3%BB%E6%95%B0%E5%A4%A7%E5%B0%8F%E4%B8%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%85%B3%E7%B3%BB/</id>
     <published>2020-03-23T13:19:18.001Z</published>
-    <updated>2020-03-25T06:01:36.068Z</updated>
+    <updated>2020-03-25T07:17:03.345Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><p>当$a&gt;0$时，二次函数图像开口向上；</p><p>当$a&lt;0$时，二次函数图像开口向下。</p><p>$|a|$越大，则二次函数图像的开口越小；</p><p>$|a|$越小，则二次函数图像的开口越大。</p><p>开口向上，对称轴在$y$轴左边，$b&gt;0$；</p><p>开口向上，对称轴在$y$轴右边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴左边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴右边，$b&gt;0$。</p><p>和$y$轴交点在原点上方，$c&gt;0$；</p><p>和$y$轴交点在原点下方，$c&lt;0$。</p><h3 id="附加"><a href="#附加" class="headerlink" title="附加"></a>附加</h3><p>二次函数（$f(x)=ax^2+bx+c$）导数为$f’(x)=2ax+b$。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><p>当$a&gt;0$时，二次函数图像开口向上；</p><p>当$a&lt;0$时，二次函数图像开口向下。</p><p>$|a|$越大，则二次函数图像的开口越小；</p><p>$|a|$越小，则二次函数图像的开口越大。</p><p>开口向上，对称轴在$y$轴左边，$b&gt;0$；</p><p>开口向上，对称轴在$y$轴右边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴左边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴右边，$b&gt;0$。</p><p>和$y$轴交点在原点上方，$c&gt;0$；</p><p>和$y$轴交点在原点下方，$c&lt;0$。</p><h3 id="附加"><a href="#附加" class="headerlink" title="附加"></a>附加</h3><p>二次函数（$f(x)=ax^2+bx+c$）导函数为$f’(x)=2ax+b$。</p>]]></content>
     
     <summary type="html">
     
@@ -626,38 +655,6 @@
       <category term="找规律" scheme="https://xiaohuang888.github.io/tags/%E6%89%BE%E8%A7%84%E5%BE%8B/"/>
     
       <category term="Nowcoder" scheme="https://xiaohuang888.github.io/tags/Nowcoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「Luogu 1412」经营与开发</title>
-    <link href="https://xiaohuang888.github.io/2019/12/11/%E3%80%8CLuogu%201412%E3%80%8D%E7%BB%8F%E8%90%A5%E4%B8%8E%E5%BC%80%E5%8F%91/"/>
-    <id>https://xiaohuang888.github.io/2019/12/11/%E3%80%8CLuogu%201412%E3%80%8D%E7%BB%8F%E8%90%A5%E4%B8%8E%E5%BC%80%E5%8F%91/</id>
-    <published>2019-12-11T11:59:37.999Z</published>
-    <updated>2019-12-13T12:30:59.049Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Portal"><a href="#Portal" class="headerlink" title="Portal"></a>Portal</h3><p>Portal1: <a href="https://www.luogu.com.cn/problem/P1412" target="_blank" rel="noopener">Luogu</a></p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>你驾驶着一台带有钻头（初始能力值$w$）的飞船，按既定路线依次飞过$n$个星球。</p><p>星球笼统的分为$2$类：资源型和维修型。（$p$为钻头当前能力值）</p><ol><li><p>资源型：含矿物质量$\rm a[i]$，若选择开采，则得到$a[i] \times p$的金钱，之后钻头损耗k%，即$p = p \times (1 - 0.01k)$</p></li><li><p>维修型：维护费用$\rm b[i]$，若选择维修，则支付$b[i] \times p$的金钱，之后钻头修复c%，即$p = p \times (1 + 0.01c)$</p></li></ol><p>注：维修后钻头的能力值可以超过初始值（你可以认为是翻修$+$升级）</p><p>金钱可以透支。</p><p>请作为舰长的你仔细抉择以最大化收入。</p><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>第一行$4$个整数$n, k, c, w$。</p><p>以下$n$行，每行$2$个整数$type, x$。</p><p>$\rm type$为$1$则代表其为资源型星球，$x$为其矿物质含量$\rm a[i]$；</p><p>$\rm type$为$2$则代表其为维修型星球，$x$为其维护费用$\rm b[i]$；</p><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>一个实数（保留$2$位小数），表示最大的收入。</p><h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h3><pre><code>5 50 50 101 101 202 102 201 30</code></pre><h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h3><pre><code>375.00</code></pre><h3 id="Hint"><a href="#Hint" class="headerlink" title="Hint"></a>Hint</h3><p>【数据范围】</p><p>对于$30\%$的数据$n \le 100$；</p><p>另有$20\%$的数据$n \le 1000, k = 100$；</p><p>对于$100\%$的数据$n \le 100000, 0 \le k, c, w, a[i], b[i] \le 100$；保证答案不超过$10^9$。</p><h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>很容易想到是动态规划，按题目说的，我们分为两种情况，分别为$\rm type = 1$和$\rm type = 2$，但是如果直接顺序进行$\rm dp$，发现存在后效性，无法直接确定答案，所以我们倒着来，转移方程分别为：</p><ol><li><p>当$type = 1$时：$\rm dp[i] = \max(dp[i + 1], a[i] + dp[i + 1] \times (1 - 0.01 \times k))$</p></li><li><p>当$type = 2$时，$\rm dp[i] = \max(dp[i + 1], -a[i] + dp[i + 1] \times (1 + 0.01 \times c))$</p></li></ol><p>答案就是$\rm dp[1]$。</p><h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" mdui-tooltip="{content: 'cpp'}"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstdio></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstring></span></span><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cmath></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">const</span> <span class="token keyword">int</span> MAXN <span class="token operator">=</span> <span class="token number">100005</span><span class="token punctuation">;</span><span class="token keyword">int</span> n<span class="token punctuation">,</span> k<span class="token punctuation">,</span> c<span class="token punctuation">,</span> w<span class="token punctuation">,</span> typ<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">,</span> a<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token keyword">double</span> dp<span class="token punctuation">[</span>MAXN<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d%d%d%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">,</span> <span class="token operator">&amp;</span>k<span class="token punctuation">,</span> <span class="token operator">&amp;</span>c<span class="token punctuation">,</span> <span class="token operator">&amp;</span>w<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>typ<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token function">memset</span><span class="token punctuation">(</span>dp<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>dp<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> n<span class="token punctuation">;</span> i<span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">//注意倒着枚举</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>typ<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">+</span> dp<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">-</span> <span class="token number">0.01</span> <span class="token operator">*</span> k<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword">else</span> dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">-</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">+</span> dp<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">0.01</span> <span class="token operator">*</span> c<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//转移</span>    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%.2lf\n"</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">*</span> w<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//乘以初始的能力值</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Portal&quot;&gt;&lt;a href=&quot;#Portal&quot; class=&quot;headerlink&quot; title=&quot;Portal&quot;&gt;&lt;/a&gt;Portal&lt;/h3&gt;&lt;p&gt;Portal1: &lt;a href=&quot;https://www.luogu.com.cn/problem/P14
-      
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="动态规划" scheme="https://xiaohuang888.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
