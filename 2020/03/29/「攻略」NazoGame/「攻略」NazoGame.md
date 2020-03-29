@@ -4,6 +4,7 @@ categories: 攻略
 tags:
     - NazoGame
     - 攻略
+mathjax: true
 ---
 
 网站：http://nazo.one-story.cn/
