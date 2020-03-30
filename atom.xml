@@ -50,9 +50,9 @@
     <link href="https://xiaohuang888.github.io/2020/03/23/%E3%80%8C%E6%95%B0%E5%AD%A6%E3%80%8D%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%AD%E7%B3%BB%E6%95%B0%E5%A4%A7%E5%B0%8F%E4%B8%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%85%B3%E7%B3%BB/"/>
     <id>https://xiaohuang888.github.io/2020/03/23/%E3%80%8C%E6%95%B0%E5%AD%A6%E3%80%8D%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%AD%E7%B3%BB%E6%95%B0%E5%A4%A7%E5%B0%8F%E4%B8%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%85%B3%E7%B3%BB/</id>
     <published>2020-03-23T13:19:18.001Z</published>
-    <updated>2020-03-25T07:17:03.345Z</updated>
+    <updated>2020-03-30T06:33:33.093Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><p>当$a&gt;0$时，二次函数图像开口向上；</p><p>当$a&lt;0$时，二次函数图像开口向下。</p><p>$|a|$越大，则二次函数图像的开口越小；</p><p>$|a|$越小，则二次函数图像的开口越大。</p><p>开口向上，对称轴在$y$轴左边，$b&gt;0$；</p><p>开口向上，对称轴在$y$轴右边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴左边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴右边，$b&gt;0$。</p><p>和$y$轴交点在原点上方，$c&gt;0$；</p><p>和$y$轴交点在原点下方，$c&lt;0$。</p><h3 id="附加"><a href="#附加" class="headerlink" title="附加"></a>附加</h3><p>二次函数（$f(x)=ax^2+bx+c$）导函数为$f’(x)=2ax+b$。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><p>当$a&gt;0$时，二次函数图像开口向上；</p><p>当$a&lt;0$时，二次函数图像开口向下。</p><p>$|a|$越大，则二次函数图像的开口越小；</p><p>$|a|$越小，则二次函数图像的开口越大。</p><p>开口向上，对称轴在$y$轴左边，$b&gt;0$；</p><p>开口向上，对称轴在$y$轴右边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴左边，$b&lt;0$；</p><p>开口向下，对称轴在$y$轴右边，$b&gt;0$。</p><p>和$y$轴交点在原点上方，$c&gt;0$；</p><p>和$y$轴交点在原点下方，$c&lt;0$。</p>]]></content>
     
     <summary type="html">
     
@@ -128,11 +128,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
       <category term="Codefoces" scheme="https://xiaohuang888.github.io/tags/Codefoces/"/>
     
@@ -162,11 +162,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -194,11 +194,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -226,13 +226,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -317,15 +317,15 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
+    
       <category term="字符串" scheme="https://xiaohuang888.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
       <category term="计数" scheme="https://xiaohuang888.github.io/tags/%E8%AE%A1%E6%95%B0/"/>
     
       <category term="Atcoder" scheme="https://xiaohuang888.github.io/tags/Atcoder/"/>
-    
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -546,13 +546,13 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
     
       <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
+      <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
   </entry>
   
@@ -580,9 +580,9 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
       <category term="数学，数论" scheme="https://xiaohuang888.github.io/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
     
       <category term="矩阵" scheme="https://xiaohuang888.github.io/tags/%E7%9F%A9%E9%98%B5/"/>
     
@@ -614,11 +614,11 @@
     
       <category term="题解" scheme="https://xiaohuang888.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
+      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
+    
       <category term="洛谷" scheme="https://xiaohuang888.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
       <category term="C++" scheme="https://xiaohuang888.github.io/tags/C/"/>
-    
-      <category term="Codeforces" scheme="https://xiaohuang888.github.io/tags/Codeforces/"/>
     
       <category term="线段树" scheme="https://xiaohuang888.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
